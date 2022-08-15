@@ -1,0 +1,3427 @@
+2: mini-tb101fr: 2022-07-05T07:14:17: %autoeasy-6-INFO: %[pname=TRP-__taskid1]: Log-file has been set to /auto/iconatest/production/hcl/ats6.0.0/ats_easy/sukravi/runinfo/Nyquist-17.6.4-June22=mini-tb101fr=topo3-4-1=Array=1==10=91.2022Jul05_07:14:16/TaskLog.dsbucall11.3.9.__taskid1
+3: mini-tb101fr: 2022-07-05T07:14:17: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: ATS Tree "/auto/iconatest/production/hcl/ats6.0.0" 
+4: mini-tb101fr: 2022-07-05T07:14:35: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: -topoId topo3.4 -topoArray TopoArray -tbMap tbmap -tagId topo3-4-1 -console_init no
+5: mini-tb101fr: 2022-07-05T07:14:35: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Done with choosing the TB...it is mini-tb101fr ---
+6: mini-tb101fr: 2022-07-05T07:14:35: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: ! In selinux_avc_config.tcl !
+7: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-3-ERROR: %[pname=TRP-__taskid1][file=/auto/iconatest/production/hcl/ats6.0.0/regression/tests/polaris/infra/selinux/selinux_avc_config.tcl][line=16][caller=uatest::test_init]: selinux_avc_track package error:can't find package selinux_avc_track
+8: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-3-ERROR: %[pname=TRP-__taskid1][file=/auto/iconatest/production/hcl/ats6.0.0/regression/tests/polaris/infra/selinux/selinux_avc_config.tcl][line=51][caller=uatest::test_init]: Cannot get testbed name, please set avc_tb in job control file or avc_config.tcl
+9: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-3-ERROR: %[pname=TRP-__taskid1][file=/auto/iconatest/production/hcl/ats6.0.0/regression/tests/polaris/infra/selinux/selinux_avc_config.tcl][line=72][caller=uatest::test_init]: Cannot get uuts info, please set avc_uuts in job control file or avc_config.tcl
+10: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-7-DEBUG: %[pname=TRP-__taskid1]: get tftp dir from default:/auto/tftp-xeinfra/selinux/tmp/
+11: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-7-DEBUG: %[pname=TRP-__taskid1]: get tftp dir from default:/auto/tftp-xeinfra/selinux/tmp/
+12: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.1/9][pname=TRP-__taskid1]: 
+13: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.2/9][pname=TRP-__taskid1]:   +-------------+        +-------------+        +-----------+
+14: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.3/9][pname=TRP-__taskid1]:   |  trafgen2   |        |   switch1   |        |   host3   |
+15: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.4/9][pname=TRP-__taskid1]:   |           1 |--------| 1           |        |           |
+16: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.5/9][pname=TRP-__taskid1]:   |           2 |--------| 2         5 |- ------| 1         |
+17: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.6/9][pname=TRP-__taskid1]:   |           3 |--------| 3           |        |           |
+18: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.7/9][pname=TRP-__taskid1]:   |           4 |--------| 4           |        |           |
+19: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.8/9][pname=TRP-__taskid1]:   +-------------+        +-------------+        +-----------+
+20: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[part=12.9/9][pname=TRP-__taskid1]: 
+21: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: trafgen1 = IXIA-XM12-1
+22: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: trafgen1.1 = 1,7,13
+23: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: trafgen1.2 = 1,7,14
+24: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: trafgen1.3 = 1,7,15
+25: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: trafgen1.4 = 1,7,16
+26: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: trafgen1.5 = 1,6,16
+27: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: switch1 = stack3-frkl-1
+28: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: switch1.1 = GigabitEthernet1/0/4
+29: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: switch1.2 = GigabitEthernet2/0/48
+30: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: switch1.3 = GigabitEthernet2/0/27
+31: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: switch1.4 = GigabitEthernet3/0/24
+32: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: switch1.5 = GigabitEthernet1/0/2
+33: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: switch1-2 = stack3-frkl-1_2
+34: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: switch1-3 = stack3-frkl-1_3
+35: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: trafgen1 = IXIA-XM12-1
+36: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: host1 = ws1
+37: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: host2 = ws2
+38: mini-tb101fr: 2022-07-05T07:14:38: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: host1.1 = eth1
+39: mini-tb101fr: 2022-07-05T07:14:40: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: unknown command: "stack3-frkl-1 exec {show module}",  attempting console connection
+Csccon is opening a connection -  telnet 192.168.0.22 2016 
+Trying 192.168.0.22...
+Connected to 192.168.0.22.
+Escape character is '^]'.
+
+stack3-frkl-1#show version
+Cisco IOS XE Software, Version BLD_V176_THROTTLE_LATEST_20220624_143828_V17_6_3_14
+Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.6.20220624:151353 [S2C-build-v176_throttle-4534-/nobackup/mcpre/BLD-BLD_V176_THROTTLE_LATEST_20220624_143828 173]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Fri 24-Jun-22 18:36 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2022 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.10.1r, RELEASE SOFTWARE (P)
+
+stack3-frkl-1 uptime is 3 hours, 6 minutes
+Uptime for this control processor is 3 hours, 8 minutes
+System returned to ROM by SSO Switchover at 10:29:16 PDT Wed Jun 15 2022
+System restarted at 04:10:13 PDT Tue Jul 5 2022
+System image file is "flash:packages.conf"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+Technology Package License Information: 
+
+------------------------------------------------------------------------------
+Technology-package                                     Technology-package
+Current                        Type                       Next reboot  
+------------------------------------------------------------------------------
+network-advantage   	Smart License                 	 network-advantage   
+dna-advantage       	Subscription Smart License    	 dna-advantage                 
+AIR License Level: AIR DNA Advantage
+Next reload AIR license Level: AIR DNA Advantage
+
+
+Smart Licensing Status: Registration Not Applicable/Not Applicable
+
+cisco C9300L-48P-4G (X86) processor with 1317126K/6147K bytes of memory.
+Processor board ID FJC24411W51
+1 Virtual Ethernet interface
+136 Gigabit Ethernet interfaces
+20 Ten Gigabit Ethernet interfaces
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-3:.
+15478848K bytes of USB Flash at usbflash0:.
+15478848K bytes of USB Flash at usbflash0-3:.
+117219783K bytes of USB Flash at usbflash1:.
+117219783K bytes of USB Flash at usbflash1-3:.
+1638400K bytes of Crash Files at crashinfo-1:.
+11264000K bytes of Flash at flash-1:.
+16789568K bytes of USB Flash at usbflash0-1:.
+117219783K bytes of USB Flash at usbflash1-1:.
+
+Base Ethernet MAC Address          : 04:76:b0:4b:b3:00
+Motherboard Assembly Number        : 73-19130-05
+Motherboard Serial Number          : FJZ244108CR
+Model Revision Number              : F0
+Motherboard Revision Number        : C0
+Model Number                       : C9300L-48P-4G
+System Serial Number               : FJC24411W51
+CLEI Code Number                   : 
+
+
+Switch Ports Model              SW Version        SW Image              Mode   
+------ ----- -----              ----------        ----------            ----   
+     1 53    C9300L-48UXG-4X    17.06.04          CAT9K_IOSXE           INSTALL
+*    2 53    C9300L-48P-4G      17.06.04          CAT9K_IOSXE           INSTALL
+     3 53    C9300L-48P-4X      17.06.04          CAT9K_IOSXE           INSTALL
+
+
+Switch 01
+---------
+Switch uptime                      : 8 minutes 
+
+Base Ethernet MAC Address          : e4:1f:7b:40:d9:00
+Motherboard Assembly Number        : 73-102174-01
+Motherboard Serial Number          : FOC24311S98
+Model Revision Number              : 04
+Motherboard Revision Number        : 07
+Model Number                       : C9300L-48UXG-4X
+System Serial Number               : FOC2437L2Y9
+Last reload reason                 : redundancy force-switchover
+CLEI Code Number                   : 
+
+Switch 03
+---------
+Switch uptime                      : 3 hours, 8 minutes 
+
+Base Ethernet MAC Address          : ac:7a:56:fc:c0:00
+Motherboard Assembly Number        : 73-102170-02
+Motherboard Serial Number          : FOC241427MD
+Model Revision Number              : 03
+Motherboard Revision Number        : 02
+Model Number                       : C9300L-48P-4X
+System Serial Number               : FOC2418L9YW
+Last reload reason                 : Reload Command
+CLEI Code Number                   : 
+
+stack3-frkl-1#terminal length 0
+stack3-frkl-1#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#no logging console
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+40: mini-tb101fr: 2022-07-05T07:14:49: %csccon-3-ERROR: %[pname=TRP-__taskid1][file=/auto/iconatest/production/hcl/ats6.0.0/ats_lib/csccon/lib/csccon_misc.exp][line=2794][caller=get_platform_type]: Unable to fetch type/model for NEWTON device stack3-frkl-1
+term width 0
+stack3-frkl-1#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)# no logging console
+stack3-frkl-1(config)#line con 0
+stack3-frkl-1(config-line)#exec-timeout 0
+stack3-frkl-1(config-line)#clock timezone PDT -7
+stack3-frkl-1(config)#service timestamps debug datetime localtime show-timezone msec
+stack3-frkl-1(config)#service timestamps log datetime localtime show-timezone msec
+stack3-frkl-1(config)#end
+stack3-frkl-1#clock set 07:14:51 05 Jul 2022
+stack3-frkl-1#
+41: mini-tb101fr: 2022-07-05T07:14:51: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: "console stack3-frkl-1" succeeded, evaluating  "exec {show module}" subcommand
+
++++ 07:14:51 stack3-frkl-1 exec +++
+show module
+Switch  Ports    Model                Serial No.   MAC address     Hw Ver.       Sw Ver. 
+------  -----   ---------             -----------  --------------  -------       --------
+ 1       53     C9300L-48UXG-4X       FOC2437L2Y9  e41f.7b40.d900  V01           17.06.04      
+ 2       53     C9300L-48P-4G         FJC24411W51  0476.b04b.b300  V01           17.06.04      
+ 3       53     C9300L-48P-4X         FOC2418L9YW  ac7a.56fc.c000  V01           17.06.04      
+stack3-frkl-1#
+--- 07:14:52 ---
+42: mini-tb101fr: 2022-07-05T07:14:52: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: "stack3-frkl-1 exec {show module}" succeeded
+43: mini-tb101fr: 2022-07-05T07:14:52: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Starting execution of section common_setup
+44: mini-tb101fr: 2022-07-05T07:14:52: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: name: common_setup
+45: mini-tb101fr: 2022-07-05T07:14:52: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: starttime: 2022-07-05 07:14:52
+46: mini-tb101fr: 2022-07-05T07:14:52: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Executing the common setup section
+47: mini-tb101fr: 2022-07-05T07:14:52: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Connecting to stack3-frkl-1
+Csccon is opening a connection -  telnet 192.168.0.22 2017 
+Trying 192.168.0.22...
+Connected to 192.168.0.22.
+Escape character is '^]'.
+
+stack3-frkl-1#show version
+Cisco IOS XE Software, Version BLD_V176_THROTTLE_LATEST_20220624_143828_V17_6_3_14
+Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.6.20220624:151353 [S2C-build-v176_throttle-4534-/nobackup/mcpre/BLD-BLD_V176_THROTTLE_LATEST_20220624_143828 173]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Fri 24-Jun-22 18:36 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2022 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.10.1r, RELEASE SOFTWARE (P)
+
+stack3-frkl-1 uptime is 3 hours, 7 minutes
+Uptime for this control processor is 3 hours, 8 minutes
+System returned to ROM by SSO Switchover at 10:29:16 PDT Wed Jun 15 2022
+System restarted at 04:10:13 PDT Tue Jul 5 2022
+System image file is "flash:packages.conf"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+Technology Package License Information: 
+
+------------------------------------------------------------------------------
+Technology-package                                     Technology-package
+Current                        Type                       Next reboot  
+------------------------------------------------------------------------------
+network-advantage   	Smart License                 	 network-advantage   
+dna-advantage       	Subscription Smart License    	 dna-advantage                 
+AIR License Level: AIR DNA Advantage
+Next reload AIR license Level: AIR DNA Advantage
+
+
+Smart Licensing Status: Registration Not Applicable/Not Applicable
+
+cisco C9300L-48P-4G (X86) processor with 1317126K/6147K bytes of memory.
+Processor board ID FJC24411W51
+1 Virtual Ethernet interface
+136 Gigabit Ethernet interfaces
+20 Ten Gigabit Ethernet interfaces
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-3:.
+15478848K bytes of USB Flash at usbflash0:.
+15478848K bytes of USB Flash at usbflash0-3:.
+117219783K bytes of USB Flash at usbflash1:.
+117219783K bytes of USB Flash at usbflash1-3:.
+1638400K bytes of Crash Files at crashinfo-1:.
+11264000K bytes of Flash at flash-1:.
+16789568K bytes of USB Flash at usbflash0-1:.
+117219783K bytes of USB Flash at usbflash1-1:.
+
+Base Ethernet MAC Address          : 04:76:b0:4b:b3:00
+Motherboard Assembly Number        : 73-19130-05
+Motherboard Serial Number          : FJZ244108CR
+Model Revision Number              : F0
+Motherboard Revision Number        : C0
+Model Number                       : C9300L-48P-4G
+System Serial Number               : FJC24411W51
+CLEI Code Number                   : 
+
+
+Switch Ports Model              SW Version        SW Image              Mode   
+------ ----- -----              ----------        ----------            ----   
+     1 53    C9300L-48UXG-4X    17.06.04          CAT9K_IOSXE           INSTALL
+*    2 53    C9300L-48P-4G      17.06.04          CAT9K_IOSXE           INSTALL
+     3 53    C9300L-48P-4X      17.06.04          CAT9K_IOSXE           INSTALL
+
+
+Switch 01
+---------
+Switch uptime                      : 8 minutes 
+
+Base Ethernet MAC Address          : e4:1f:7b:40:d9:00
+Motherboard Assembly Number        : 73-102174-01
+Motherboard Serial Number          : FOC24311S98
+Model Revision Number              : 04
+Motherboard Revision Number        : 07
+Model Number                       : C9300L-48UXG-4X
+System Serial Number               : FOC2437L2Y9
+Last reload reason                 : redundancy force-switchover
+CLEI Code Number                   : 
+
+Switch 03
+---------
+Switch uptime                      : 3 hours, 8 minutes 
+
+Base Ethernet MAC Address          : ac:7a:56:fc:c0:00
+Motherboard Assembly Number        : 73-102170-02
+Motherboard Serial Number          : FOC241427MD
+Model Revision Number              : 03
+Motherboard Revision Number        : 02
+Model Number                       : C9300L-48P-4X
+System Serial Number               : FOC2418L9YW
+Last reload reason                 : Reload Command
+CLEI Code Number                   : 
+
+stack3-frkl-1#terminal length 0
+stack3-frkl-1#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#no logging console
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+48: mini-tb101fr: 2022-07-05T07:14:59: %csccon-3-ERROR: %[pname=TRP-__taskid1][file=/auto/iconatest/production/hcl/ats6.0.0/ats_lib/csccon/lib/csccon_misc.exp][line=2794][caller=get_platform_type]: Unable to fetch type/model for NEWTON device stack3-frkl-1_2
+term width 0
+stack3-frkl-1#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)# no logging console
+stack3-frkl-1(config)#line con 0
+stack3-frkl-1(config-line)#exec-timeout 0
+stack3-frkl-1(config-line)#clock timezone PDT -7
+stack3-frkl-1(config)#service timestamps debug datetime localtime show-timezone msec
+stack3-frkl-1(config)#service timestamps log datetime localtime show-timezone msec
+stack3-frkl-1(config)#end
+stack3-frkl-1#clock set 07:15:00 05 Jul 2022
+stack3-frkl-1#Csccon is opening a connection -  telnet 192.168.0.22 2018 
+Trying 192.168.0.22...
+Connected to 192.168.0.22.
+Escape character is '^]'.
+
+stack3-frkl-1#show version
+Cisco IOS XE Software, Version BLD_V176_THROTTLE_LATEST_20220624_143828_V17_6_3_14
+Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.6.20220624:151353 [S2C-build-v176_throttle-4534-/nobackup/mcpre/BLD-BLD_V176_THROTTLE_LATEST_20220624_143828 173]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Fri 24-Jun-22 18:36 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2022 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.10.1r, RELEASE SOFTWARE (P)
+
+stack3-frkl-1 uptime is 3 hours, 7 minutes
+Uptime for this control processor is 3 hours, 8 minutes
+System returned to ROM by SSO Switchover at 10:29:16 PDT Wed Jun 15 2022
+System restarted at 04:10:13 PDT Tue Jul 5 2022
+System image file is "flash:packages.conf"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+Technology Package License Information: 
+
+------------------------------------------------------------------------------
+Technology-package                                     Technology-package
+Current                        Type                       Next reboot  
+------------------------------------------------------------------------------
+network-advantage   	Smart License                 	 network-advantage   
+dna-advantage       	Subscription Smart License    	 dna-advantage                 
+AIR License Level: AIR DNA Advantage
+Next reload AIR license Level: AIR DNA Advantage
+
+
+Smart Licensing Status: Registration Not Applicable/Not Applicable
+
+cisco C9300L-48P-4G (X86) processor with 1317126K/6147K bytes of memory.
+Processor board ID FJC24411W51
+1 Virtual Ethernet interface
+136 Gigabit Ethernet interfaces
+20 Ten Gigabit Ethernet interfaces
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-3:.
+15478848K bytes of USB Flash at usbflash0:.
+15478848K bytes of USB Flash at usbflash0-3:.
+117219783K bytes of USB Flash at usbflash1:.
+117219783K bytes of USB Flash at usbflash1-3:.
+1638400K bytes of Crash Files at crashinfo-1:.
+11264000K bytes of Flash at flash-1:.
+16789568K bytes of USB Flash at usbflash0-1:.
+117219783K bytes of USB Flash at usbflash1-1:.
+
+Base Ethernet MAC Address          : 04:76:b0:4b:b3:00
+Motherboard Assembly Number        : 73-19130-05
+Motherboard Serial Number          : FJZ244108CR
+Model Revision Number              : F0
+Motherboard Revision Number        : C0
+Model Number                       : C9300L-48P-4G
+System Serial Number               : FJC24411W51
+CLEI Code Number                   : 
+
+
+Switch Ports Model              SW Version        SW Image              Mode   
+------ ----- -----              ----------        ----------            ----   
+     1 53    C9300L-48UXG-4X    17.06.04          CAT9K_IOSXE           INSTALL
+*    2 53    C9300L-48P-4G      17.06.04          CAT9K_IOSXE           INSTALL
+     3 53    C9300L-48P-4X      17.06.04          CAT9K_IOSXE           INSTALL
+
+
+Switch 01
+---------
+Switch uptime                      : 8 minutes 
+
+Base Ethernet MAC Address          : e4:1f:7b:40:d9:00
+Motherboard Assembly Number        : 73-102174-01
+Motherboard Serial Number          : FOC24311S98
+Model Revision Number              : 04
+Motherboard Revision Number        : 07
+Model Number                       : C9300L-48UXG-4X
+System Serial Number               : FOC2437L2Y9
+Last reload reason                 : redundancy force-switchover
+CLEI Code Number                   : 
+
+Switch 03
+---------
+Switch uptime                      : 3 hours, 8 minutes 
+
+Base Ethernet MAC Address          : ac:7a:56:fc:c0:00
+Motherboard Assembly Number        : 73-102170-02
+Motherboard Serial Number          : FOC241427MD
+Model Revision Number              : 03
+Motherboard Revision Number        : 02
+Model Number                       : C9300L-48P-4X
+System Serial Number               : FOC2418L9YW
+Last reload reason                 : Reload Command
+CLEI Code Number                   : 
+
+stack3-frkl-1#terminal length 0
+stack3-frkl-1#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#no logging console
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+49: mini-tb101fr: 2022-07-05T07:15:08: %csccon-3-ERROR: %[pname=TRP-__taskid1][file=/auto/iconatest/production/hcl/ats6.0.0/ats_lib/csccon/lib/csccon_misc.exp][line=2794][caller=get_platform_type]: Unable to fetch type/model for NEWTON device stack3-frkl-1_3
+term width 0
+stack3-frkl-1#config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)# no logging console
+stack3-frkl-1(config)#line con 0
+stack3-frkl-1(config-line)#exec-timeout 0
+stack3-frkl-1(config-line)#clock timezone PDT -7
+stack3-frkl-1(config)#service timestamps debug datetime localtime show-timezone msec
+stack3-frkl-1(config)#service timestamps log datetime localtime show-timezone msec
+stack3-frkl-1(config)#end
+stack3-frkl-1#clock set 07:15:09 05 Jul 2022
+stack3-frkl-1#
++++ 07:15:10 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#logging on
+stack3-frkl-1(config)#no logging console
+stack3-frkl-1(config)#no logging monitor
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:15:10 ---
+50: mini-tb101fr: 2022-07-05T07:15:10: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Connecting to Traffic Gen
+51: mini-tb101fr: 2022-07-05T07:15:58: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Clearing config on the stack3-frkl-1
+++++ 07:15:58 stack3-frkl-1 Control::transmit +++
+Transmit: enable
++--- 07:15:58 ---
+++++ 07:15:58 stack3-frkl-1 Control::receive +++
+
+stack3-frkl-1#enable
+stack3-frkl-1#
+--- 07:15:58 ---
+++++ 07:15:58 stack3-frkl-1 Control::transmit +++
+Transmit: terminal length 0
++--- 07:15:58 ---
+++++ 07:15:58 stack3-frkl-1 Control::receive +++
+
+--- 07:15:58 ---
+++++ 07:15:58 stack3-frkl-1 Control::transmit +++
+Transmit: show switch | exc unscaled
++--- 07:15:58 ---
+++++ 07:15:58 stack3-frkl-1 Control::receive +++
+terminal length 0
+stack3-frkl-1#show switch | exc unscaled
+Switch/Stack Mac Address : e41f.7b40.d900 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State 
+-------------------------------------------------------------------------------------
+ 1       Member   e41f.7b40.d900     15     V01     Ready                               
+*2       Active   0476.b04b.b300     10     V01     Ready                               
+ 3       Standby  ac7a.56fc.c000     7      V01     Ready                               
+
+
+
+stack3-frkl-1#
+--- 07:16:03 ---
+
++++ 07:16:03 stack3-frkl-1 exec +++
+show redundancy state
+       my state = 13 -ACTIVE 
+     peer state = 8  -STANDBY HOT 
+           Mode = Duplex
+           Unit = Primary
+        Unit ID = 2
+
+Redundancy Mode (Operational) = sso
+Redundancy Mode (Configured)  = sso
+Redundancy State              = sso
+     Maintenance Mode = Disabled
+    Manual Swact = enabled
+ Communications = Up
+
+   client count = 122
+ client_notification_TMR = 30000 milliseconds
+           RF debug mask = 0x0   
+
+stack3-frkl-1#
+--- 07:16:04 ---
+++++ 07:16:04 stack3-frkl-1 Control::receive +++
+
+--- 07:16:06 ---
+52: mini-tb101fr: 2022-07-05T07:16:06: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <0> stack3-frkl-1 not ready, please wait...
+++++ 07:16:06 stack3-frkl-1 Control::transmit +++
+Transmit: 
++--- 07:16:06 ---
+++++ 07:16:36 stack3-frkl-1 Control::receive +++
+
+stack3-frkl-1#
+--- 07:16:38 ---
+53: mini-tb101fr: 2022-07-05T07:16:38: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see stack3-frkl-1# prompt, write erase, please wait...
+++++ 07:16:38 stack3-frkl-1 Control::transmit +++
+Transmit: write erase
++--- 07:16:38 ---
+++++ 07:16:38 stack3-frkl-1 Control::receive +++
+write erase
+************************************************************************************************************
+Erasing Nvram will not clear license trust code.
+************************************************************************************************************
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+stack3-frkl-1#
+--- 07:16:48 ---
+++++ 07:16:48 stack3-frkl-1 Control::transmit +++
+Transmit: config terminal
++--- 07:16:48 ---
+++++ 07:16:48 stack3-frkl-1 Control::receive +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#
+--- 07:16:50 ---
+++++ 07:16:50 stack3-frkl-1 Control::transmit +++
+Transmit: system ignore startupconfig switch all
++--- 07:16:50 ---
+++++ 07:16:50 stack3-frkl-1 Control::receive +++
+system ignore startupconfig switch all
+Applying config on Switch 1...[DONE]
+Applying config on Switch 2...[DONE]
+Applying config on Switc
+--- 07:16:52 ---
+++++ 07:16:52 stack3-frkl-1 Control::transmit +++
+Transmit: end
++--- 07:16:52 ---
+++++ 07:16:52 stack3-frkl-1 Control::receive +++
+h 3...[DONE]
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:16:54 ---
+54: mini-tb101fr: 2022-07-05T07:16:54: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <30> stack3-frkl-1 not ready, please wait...
+++++ 07:16:54 stack3-frkl-1 Control::transmit +++
+Transmit: 
++--- 07:16:54 ---
+++++ 07:17:24 stack3-frkl-1 Control::receive +++
+
+stack3-frkl-1#
+--- 07:17:26 ---
+55: mini-tb101fr: 2022-07-05T07:17:26: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see stack3-frkl-1# prompt, reload stack3-frkl-1, please wait...
+++++ 07:17:26 stack3-frkl-1 Control::transmit +++
+Transmit: reload
++--- 07:17:26 ---
+56: mini-tb101fr: 2022-07-05T07:17:36: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <60> stack3-frkl-1 not ready, please wait...
+++++ 07:17:36 stack3-frkl-1 Control::transmit +++
+Transmit: 
++--- 07:17:36 ---
+++++ 07:18:06 stack3-frkl-1 Control::receive +++
+reload
+
+System configuration has been modified. Save? [yes/no]: 
+% Please answer 'yes' or 'no'.
+
+System configuration has been modified. Save? [yes/no]: 
+--- 07:18:08 ---
+57: mini-tb101fr: 2022-07-05T07:18:08: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see System configuration has been modified prompt, send no
+++++ 07:18:08 stack3-frkl-1 Control::transmit +++
+Transmit: no
++--- 07:18:08 ---
+++++ 07:18:08 stack3-frkl-1 Control::receive +++
+no
+Reload command is being issued on Active unit, this will reload the whole stack
+Proceed with reload? [confirm]
+--- 07:18:10 ---
+58: mini-tb101fr: 2022-07-05T07:18:10: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see confirm prompt, send r
+++++ 07:18:10 stack3-frkl-1 Control::transmit +++
+Transmit: 
++--- 07:18:10 ---
+++++ 07:18:10 stack3-frkl-1 Control::receive +++
+
+
+--- 07:18:12 ---
+59: mini-tb101fr: 2022-07-05T07:18:12: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <90> stack3-frkl-1 not ready, please wait...
+++++ 07:18:12 stack3-frkl-1 Control::transmit +++
+Transmit: 
++--- 07:18:12 ---
+++++ 07:18:42 stack3-frkl-1 Control::receive +++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-frkl-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+Chassis 1 reloading, reason - Reload command
+Jul  5 07:18:18.306: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul  5 07:18:19.038:
+
+
+Initializing Hardware...
+  
+--- 07:18:44 ---
+60: mini-tb101fr: 2022-07-05T07:18:44: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see Press RETURN to get started message, send r
+++++ 07:18:44 stack3-frkl-1 Control::transmit +++
+Transmit: 
++--- 07:18:44 ---
+++++ 07:18:44 stack3-frkl-1_2 Control::receive +++
+Jul  5 07:18:17.478: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul  5 07:18:18.560: %PMAN-5-EXITACTION: R0/0: pvp: Process 
+
+
+Initializing Hardware...
+  
+--- 07:18:46 ---
+61: mini-tb101fr: 2022-07-05T07:18:46: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <0> stack3-frkl-1_2 not ready, please wait...
+++++ 07:18:46 stack3-frkl-1_2 Control::transmit +++
+Transmit: 
++--- 07:18:46 ---
+++++ 07:19:16 stack3-frkl-1_2 Control::receive +++
+  
+System Bootstrap, Version 17.10.1r, RELEASE SOFTWARE (P)
+Compiled Fri 06/03/2022 12:16:33.75 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300L-48P-4G platform with 8388608 Kbytes of main memory
+
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+###########################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+No suitable keys found in the key storage. 22
+No suitable keys found in the key storage. 22
+
+--- 07:19:18 ---
+62: mini-tb101fr: 2022-07-05T07:19:18: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <30> stack3-frkl-1_2 not ready, please wait...
+++++ 07:19:18 stack3-frkl-1_2 Control::transmit +++
+Transmit: 
++--- 07:19:18 ---
+++++ 07:19:48 stack3-frkl-1_2 Control::receive +++
+
+*Jul 05 14:19:23.101: %IOSXEBOOT-4-SMART_LOG: (local/local): Tue Jul 5 14:19:23 Universal 2022 INFO: Starting SMART daemon
+
+--- 07:19:50 ---
+63: mini-tb101fr: 2022-07-05T07:19:50: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <60> stack3-frkl-1_2 not ready, please wait...
+++++ 07:19:50 stack3-frkl-1_2 Control::transmit +++
+Transmit: 
++--- 07:19:50 ---
+++++ 07:20:20 stack3-frkl-1_2 Control::receive +++
+
+Waiting for 120 seconds for other switches to boot
+#####
+--- 07:20:22 ---
+64: mini-tb101fr: 2022-07-05T07:20:22: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <90> stack3-frkl-1_2 not ready, please wait...
+++++ 07:20:22 stack3-frkl-1_2 Control::transmit +++
+Transmit: 
++--- 07:20:22 ---
+++++ 07:20:52 stack3-frkl-1_2 Control::receive +++
+###
+Switch number is 2
+All switches in the stack have been discovered. Accelerating discovery
+
+
+
+--- 07:20:54 ---
+65: mini-tb101fr: 2022-07-05T07:20:54: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <120> stack3-frkl-1_2 not ready, please wait...
+++++ 07:20:54 stack3-frkl-1_2 Control::transmit +++
+Transmit: 
++--- 07:20:54 ---
+++++ 07:21:24 stack3-frkl-1_2 Control::receive +++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+Switch>
+*Jul  5 14:21:03.670: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Jul  5 14:21:04.211: ILP:: switch 1 POE mode : IEEE AT
+*Jul  5 14:21:04.211: ILP:: POE POST for switch 1: PASS
+*Jul  5 14:21:04.492: %SYS-6-BOOTTIME: Time taken to reboot after reload =  998 seconds
+*Jul  5 14:21:04.498: %PNP-6-PNP_BEST_UDI_UPDATE: Best UDI [PID:C9300L-48UXG-4X,VID:04,SN:FOC2437L2Y9] identified via (master-registry)
+*Jul  5 14:21:04.498: %PNP-6-PNP_CDP_UPDATE: Device UDI [PID:C9300L-48UXG-4X,VID:04,SN:FOC2437L2Y9] identified for CDP
+*Jul  5 14:21:04.503: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Startup Config Present)
+*Jul  5 14:21:04.564: %ILPOWER-5-POWER_GRANTED: Interface Gi2/0/2: Power granted
+*Jul  5 14:21:04.565: %ILPOWER-5-DETECT: Interface Gi2/0/47: Power Device detected: IEEE PD
+*Jul  5 14:21:04.670: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Jul  5 14:21:05.287: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/10: Power granted
+*Jul  5 14:21:05.288: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/11: Power granted
+*Jul  5 14:21:05.288: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/12: Power granted
+*Jul  5 14:21:05.288: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/13: Power granted
+*Jul  5 14:21:05.288: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/14: Power granted
+*Jul  5 14:21:06.369: ILP:: switch 2 POE mode : IEEE AT
+*Jul  5 14:21:06.369: ILP:: POE POST for switch 2: PASS
+*Jul  5 14:21:07.155: ILP:: switch 3 POE mode : IEEE AT
+*Jul  5 14:21:07.156: ILP:: POE POST for switch 3: PASS
+*Jul  5 14:21:07.260: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/24: Power granted
+*Jul  5 14:21:08.566: %ILPOWER-5-POWER_GRANTED: Interface Gi2/0/47: Power granted
+*Jul  5 14:21:14.447: %PKI-2-NON_AUTHORITATIVE_CLOCK: PKI functions can not be initialized until an authoritative time source, like NTP, can be obtained.
+*Jul  5 14:21:15.251: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI_LEGACY created succesfully
+*Jul  5 14:21:15.261: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named CISCO_IDEVID_SUDI_LEGACY has been generated or imported by pki-sudi
+*Jul  5 14:21:15.286: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI_LEGACY0 created succesfully
+*Jul  5 14:21:15.290: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI created succesfully
+*Jul  5 14:21:15.298: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named CISCO_IDEVID_SUDI has been generated or imported by pki-sudi
+*Jul  5 14:21:15.348: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI0 created succesfully
+--- 07:21:27 ---
+66: mini-tb101fr: 2022-07-05T07:21:27: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see switch: prompt at stack3-frkl-1_2
+++++ 07:21:27 stack3-frkl-1_2 Control::transmit +++
+Transmit: 
++--- 07:21:27 ---
+++++ 07:21:27 stack3-frkl-1_3 Control::receive +++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-frkl-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+Jul  5 07:18:17.744: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul  5 07:18:18.639: 
+
+
+Initializing Hardware...
+    
+System Bootstrap, Version 17.10.1r, RELEASE SOFTWARE (P)
+Compiled Fri 06/03/2022 12:16:33.75 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300L-48P-4X platform with 8388608 Kbytes of main memory
+
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+###########################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+No suitable keys found in the key storage. 22
+No suitable keys found in the key storage. 22
+
+*Jul 05 14:19:18.199: %IOSXEBOOT-4-SMART_LOG: (local/local): Tue Jul 5 14:19:18 Universal 2022 INFO: Starting SMART daemon
+
+Waiting for 120 seconds for other switches to boot
+########
+Switch number is 3
+All switches in the stack have been discovered. Accelerating discovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+--- 07:21:29 ---
+67: mini-tb101fr: 2022-07-05T07:21:29: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see Press RETURN to get started message, send r
+++++ 07:21:29 stack3-frkl-1_3 Control::transmit +++
+Transmit: 
++--- 07:21:29 ---
+++++ 07:21:29 stack3-frkl-1 Control::receive +++
+  
+System Bootstrap, Version 17.10.1r, RELEASE SOFTWARE (P)
+Compiled Fri 06/03/2022 12:16:33.75 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300L-48UXG-4X platform with 8388608 Kbytes of main memory
+
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+###########################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+No suitable keys found in the key storage. 22
+No suitable keys found in the key storage. 22
+
+*Jul 05 14:19:20.213: %IOSXEBOOT-4-SMART_LOG: (local/local): Tue Jul 5 14:19:20 Universal 2022 INFO: Starting SMART daemon
+
+Waiting for 120 seconds for other switches to boot
+
+Switch number is 1
+All switches in the stack have been discovered. Accelerating discovery
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           Cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.6.20220624:151353 [S2C-build-v176_throttle-4534-/nobackup/mcpre/BLD-BLD_V176_THROTTLE_LATEST_20220624_143828 173]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Fri 24-Jun-22 18:36 by mcpre
+
+
+This software version supports only Smart Licensing as the software licensing mechanism.
+
+
+PLEASE READ THE FOLLOWING TERMS CAREFULLY. INSTALLING THE LICENSE OR
+LICENSE KEY PROVIDED FOR ANY CISCO SOFTWARE PRODUCT, PRODUCT FEATURE,
+AND/OR SUBSEQUENTLY PROVIDED SOFTWARE FEATURES (COLLECTIVELY, THE
+"SOFTWARE"), AND/OR USING SUCH SOFTWARE CONSTITUTES YOUR FULL
+ACCEPTANCE OF THE FOLLOWING TERMS. YOU MUST NOT PROCEED FURTHER IF YOU
+ARE NOT WILLING TO BE BOUND BY ALL THE TERMS SET FORTH HEREIN.
+
+Your use of the Software is subject to the Cisco End User License Agreement
+(EULA) and any relevant supplemental terms (SEULA) found at
+http://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html.
+
+You hereby acknowledge and agree that certain Software and/or features are
+licensed for a particular term, that the license to such Software and/or
+features is valid only for the applicable term and that such Software and/or
+features may be shut down or otherwise terminated by Cisco after expiration
+of the applicable license term (e.g., 90-day trial period). Cisco reserves
+the right to terminate any such Software feature electronically or by any
+other means available. While Cisco may provide alerts, it is your sole
+responsibility to monitor your usage of any such term Software feature to
+ensure that your systems and networks are prepared for a shutdown of the
+Software feature.
+
+
+% Checking backup nvram
+
+FIPS: Flash Key Check : Key Not Found, FIPS Mode Not Enabled
+
+All TCP AO KDF Tests Pass
+cisco C9300L-48UXG-4X (X86) processor with 1317126K/6147K bytes of memory.
+Processor board ID FOC2437L2Y9
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-2:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-2:.
+11264000K bytes of Flash at flash-3:.
+16789568K bytes of USB Flash at usbflash0:.
+15478848K bytes of USB Flash at usbflash0-2:.
+15478848K bytes of USB Flash at usbflash0-3:.
+
+Base Ethernet MAC Address          : e4:1f:7b:40:d9:00
+Motherboard Assembly Number        : 73-102174-01
+Motherboard Serial Number          : FOC24311S98
+Model Revision Number              : 04
+Motherboard Revision Number        : 07
+Model Number                       : C9300L-48UXG-4X
+System Serial Number               : FOC2437L2Y9
+CLEI Code Number                   : 
+
+
+Applying config on Switch 2...[DONE]
+Applying config on Switch 3...[DONE]
+
+
+Press RETURN to get started!
+
+
+*Jul  5 14:20:47.630: %IOSXE_RP_NV-3-NV_ACCESS_FAIL: Initial read of NVRAM contents failed
+*Jul  5 14:20:47.801: %IOSD_INFRA-6-IFS_DEVICE_OIR: Device usbflash0 added
+*Jul  5 14:20:47.802: %IOSD_INFRA-6-IFS_DEVICE_OIR: Device usbflash0-2 added
+*Jul  5 14:20:47.802: %IOSD_INFRA-6-IFS_DEVICE_OIR: Device usbflash0-3 added
+*Jul  5 14:20:47.803: %IOSD_INFRA-6-IFS_DEVICE_OIR: Device usbflash1 added
+*Jul  5 14:20:47.803: %IOSD_INFRA-6-IFS_DEVICE_OIR: Device usbflash1-2 added
+*Jul  5 14:20:47.803: %IOSD_INFRA-6-IFS_DEVICE_OIR: Device usbflash1-3 added
+*Jul  5 14:20:48.537: %SMART_LIC-6-AGENT_ENABLED: Smart Agent for Licensing is enabled 
+*Jul  5 14:20:48.565: %SMART_LIC-6-EXPORT_CONTROLLED: Usage of export controlled features is not allowed
+*Jul  5 14:20:52.029: pagp init: platform supports EC/LACP xFSURA Tracing tool registry return: 0
+*Jul  5 14:20:52.072: LACP-GR: infra cb, 
+
+*Jul  5 14:20:52.703: ISIS-GRACEFUL-RELOAD: Init State GR_STACK_NONE
+*Jul  5 14:20:54.076: %TLSCLIENT-5-TLSCLIENT_IOS: TLS Client is IOS based
+*Jul  5 14:20:54.290: %CRYPTO-4-AUDITWARN: Encryption audit check could not be performed
+*Jul  5 14:20:54.290: %CRYPTO_ENGINE-4-CSDL_COMPLIANCE_DISABLED: Cisco PSB security compliance has been disabled
+*Jul  5 14:20:54.303: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for type vlan
+*Jul  5 14:20:54.668: %LINK-3-UPDOWN: Interface Lsmpi18/3, changed state to up
+*Jul  5 14:20:54.676: %LINK-3-UPDOWN: Interface EOBC18/1, changed state to up
+*Jul  5 14:20:54.677: %LINEPROTO-5-UPDOWN: Line protocol on Interface LI-Null0, changed state to up
+*Jul  5 14:20:54.677: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to down
+*Jul  5 14:20:54.677: %LINEPROTO-5-UPDOWN: Line protocol on Interface LIIN18/2, changed state to up
+*Jul  5 14:20:54.678: %LINK-3-UPDOWN: Interface LIIN18/2, changed state to up
+*Jul  5 14:20:54.678: %LINK-5-CHANGED: Interface Bluetooth0/4, changed state to administratively down
+*Jul  5 14:20:54.781: %PNP-6-PNP_DISCOVERY_STARTED: PnP Discovery started
+*Jul  5 14:20:54.788: %HMANRP-6-HMAN_IOS_CHANNEL_INFO: HMAN-IOS channel event for switch 1: EMP_RELAY: Channel UP!
+*Jul  5 14:20:54.789: %HMANRP-6-HMAN_IOS_CHANNEL_INFO: HMAN-IOS channel event for switch 2: EMP_RELAY: Channel UP!
+*Jul  5 14:20:54.791: %HMANRP-6-HMAN_IOS_CHANNEL_INFO: HMAN-IOS channel event for switch 3: EMP_RELAY: Channel UP!
+*Jul  5 14:19:03.653: %IOSXE-0-PLATFORM: Switch 1 R0/0: udev: usb1: has been inserted
+*Jul  5 14:20:24.075: %STACKMGR-6-STACK_LINK_CHANGE: Switch 1 R0/0: stack_mgr: Stack port 1 on Switch 1 is down
+*Jul  5 14:20:24.075: %STACKMGR-6-STACK_LINK_CHANGE: Switch 1 R0/0: stack_mgr: Stack port 2 on Switch 1 is down
+*Jul  5 14:20:25.368: %STACKMGR-6-STACK_LINK_CHANGE: Switch 1 R0/0: stack_mgr: Stack port 1 on Switch 1 is up
+*Jul  5 14:20:25.368: %STACKMGR-6-STACK_LINK_CHANGE: Switch 1 R0/0: stack_mgr: Stack port 2 on Switch 1 is up
+*Jul  5 14:20:25.375: %STACKMGR-4-SWITCH_ADDED: Switch 1 R0/0: stack_mgr: Switch 1 has been added to the stack.
+*Jul  5 14:20:27.241: %STACKMGR-4-SWITCH_ADDED: Switch 1 R0/0: stack_mgr: Switch 2 has been added to the stack.
+*Jul  5 14:20:30.029: %STACKMGR-4-SWITCH_ADDED: Switch 1 R0/0: stack_mgr: Switch 1 has been added to the stack.
+*Jul  5 14:20:30.029: %STACKMGR-6-ACTIVE_ELECTED: Switch 1 R0/0: stack_mgr: Switch 1 has been elected ACTIVE.
+*Jul  5 14:19:01.650: %IOSXE-0-PLATFORM: Switch 3 R0/0: udev: usb1: has been inserted
+*Jul  5 14:20:16.130: %STACKMGR-6-STACK_LINK_CHANGE: Switch 3 R0/0: stack_mgr: Stack port 1 on Switch 3 is down
+*Jul  5 14:20:16.130: %STACKMGR-6-STACK_LINK_CHANGE: Switch 3 R0/0: stack_mgr: Stack port 2 on Switch 3 is down
+*Jul  5 14:20:17.611: %STACKMGR-6-STACK_LINK_CHANGE: Switch 3 R0/0: stack_mgr: Stack port 2 on Switch 3 is up
+*Jul  5 14:20:22.112: %STACKMGR-6-STACK_LINK_CHANGE: Switch 3 R0/0: stack_mgr: Stack port 1 on Switch 3 is up
+*Jul  5 14:20:24.818: %STACKMGR-4-SWITCH_ADDED: Switch 3 R0/0: stack_mgr: Switch 1 has been added to the stack.
+*Jul  5 14:20:26.658: %STACKMGR-4-SWITCH_ADDED: Switch 3 R0/0: stack_mgr: Switch 2 has been added to the stack.
+*Jul  5 14:20:28.976: %STACKMGR-4-SWITCH_ADDED: Switch 3 R0/0: stack_mgr: Switch 3 has been added to the stack.
+*Jul  5 14:20:29.459: %STACKMGR-6-ACTIVE_ELECTED: Switch 3 R0/0: stack_mgr: Switch 1 has been elected ACTIVE.
+*Jul  5 14:19:06.603: %IOSXE-0-PLATFORM: Switch 2 R0/0: udev: usb1: has been inserted
+*Jul  5 14:20:16.232: %STACKMGR-6-STACK_LINK_CHANGE: Switch 2 R0/0: stack_mgr: Stack port 1 on Switch 2 is down
+*Jul  5 14:20:16.232: %STACKMGR-6-STACK_LINK_CHANGE: Switch 2 R0/0: stack_mgr: Stack port 2 on Switch 2 is down
+*Jul  5 14:20:17.591: %STACKMGR-6-STACK_LINK_CHANGE: Switch 2 R0/0: stack_mgr: Stack port 1 on Switch 2 is up
+*Jul  5 14:20:21.592: %STACKMGR-6-STACK_LINK_CHANGE: Switch 2 R0/0: stack_mgr: Stack port 2 on Switch 2 is up
+*Jul  5 14:20:24.813: %STACKMGR-4-SWITCH_ADDED: Switch 2 R0/0: stack_mgr: Switch 1 has been added to the stack.
+*Jul  5 14:20:54.882: ILP:: switch 1 POE mode : IEEE AT
+*Jul  5 14:20:54.882: ILP:: POE POST for switch 1: PASS
+*Jul  5 14:20:55.625: %SYS-5-CONFIG_P: Configured programmatically by process MGMT VRF Process from console as vty0
+*Jul  5 14:20:55.849: %IOSXE_MGMTVRF-6-CREATE_SUCCESS_INFO: Management vrf Mgmt-vrf created with ID 1, ipv4 table-id 0x1, ipv6 table-id 0x1E000001
+*Jul  5 14:20:55.850: %SYS-5-CONFIG_P: Configured programmatically by process MGMT VRF Process from console as vty0
+*Jul  5 14:20:55.856: %LINEPROTO-5-UPDOWN: Line protocol on Interface Lsmpi18/3, changed state to up
+*Jul  5 14:20:55.856: %LINEPROTO-5-UPDOWN: Line protocol on Interface EOBC18/1, changed state to up
+*Jul  5 14:20:55.857: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
+*Jul  5 14:20:55.857: %LINEPROTO-5-UPDOWN: Line protocol on Interface Bluetooth0/4, changed state to down
+*Jul  5 14:20:55.921: %IOSXE_MGMTVRF-6-CREATE_SUCCESS_INFO: Management vrf Mgmt-vrf created with ID 1, ipv4 table-id 0x1, ipv6 table-id 0x1E000001
+*Jul  5 14:20:55.922: %SYS-5-CONFIG_P: Configured programmatically by process MGMT VRF Process from console as vty0
+*Jul  5 14:20:56.387: ILP:: switch 2 POE mode : IEEE AT
+*Jul  5 14:20:56.387: ILP:: POE POST for switch 2: PASS
+*Jul  5 14:20:57.167: ILP:: switch 3 POE mode : IEEE AT
+*Jul  5 14:20:57.167: ILP:: POE POST for switch 3: PASS
+*Jul  5 14:20:57.356: %ONEP_BASE-6-SS_ENABLED: ONEP: Service set Base was enabled by Default
+*Jul  5 14:20:58.080: %SYS-6-STARTUP_CONFIG_IGNORED: System startup configuration is ignored based on the configuration register setting.
+*Jul  5 14:20:58.224: %SYS-5-CONFIG_P: Configured programmatically by process CPP MQC QoS Policy manager from console as vty1
+*Jul  5 14:20:58.228: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 1: FRU power supply A removed
+*Jul  5 14:20:58.229: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 1: FRU power supply B inserted
+*Jul  5 14:20:58.232: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 2: FRU power supply A inserted
+*Jul  5 14:20:58.232: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 2: FRU power supply A removed
+*Jul  5 14:20:58.233: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 2: FRU power supply A powered on
+*Jul  5 14:20:58.233: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 2: FRU power supply A removed
+*Jul  5 14:20:58.234: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 2: FRU power supply B inserted
+*Jul  5 14:20:58.234: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 2: FRU power supply B removed
+*Jul  5 14:20:58.235: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 2: FRU power supply B powered on
+*Jul  5 14:20:58.235: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 2: FRU power supply B inserted
+*Jul  5 14:20:58.236: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 3: FRU power supply A inserted
+*Jul  5 14:20:58.237: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 3: FRU power supply A removed
+*Jul  5 14:20:58.237: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 3: FRU power supply A powered on
+*Jul  5 14:20:58.238: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 3: FRU power supply A removed
+*Jul  5 14:20:58.238: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 3: FRU power supply B inserted
+*Jul  5 14:20:58.239: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 3: FRU power supply B removed
+*Jul  5 14:20:58.239: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 3: FRU power supply B powered on
+*Jul  5 14:20:58.240: %PLATFORM_FEP-6-FRU_PS_OIR: Switch 3: FRU power supply B inserted
+*Jul  5 14:20:58.271: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+*Jul  5 14:20:59.260: %SYS-5-RESTART: System restarted --
+Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.6.20220624:151353 [S2C-build-v176_throttle-4534-/nobackup/mcpre/BLD-BLD_V176_THROTTLE_LATEST_20220624_143828 173]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Fri 24-Jun-22 18:36 by mcpre
+*Jul  5 14:21:01.012: %LINK-3-UPDOWN: Interface Vlan1, changed state to up
+*Jul  5 14:21:01.281: %PLATFORM_SYS-6-UPTIME: Time taken to initialize system =  122 seconds
+*Jul  5 14:21:03.329: %ILPOWER-5-DETECT: Interface Gi1/0/24: Power Device detected: IEEE PD
+*Jul  5 14:21:03.336: %ILPOWER-5-DETECT: Interface Gi1/0/10: Power Device detected: IEEE PD
+*Jul  5 14:21:03.338: %ILPOWER-5-DETECT: Interface Gi1/0/11: Power Device detected: IEEE PD
+*Jul  5 14:21:03.340: %ILPOWER-5-DETECT: Interface Gi1/0/12: Power Device detected: IEEE PD
+*Jul  5 14:21:03.343: %ILPOWER-5-DETECT: Interface Gi1/0/13: Power Device detected: IEEE PD
+*Jul  5 14:21:03.345: %ILPOWER-5-DETECT: Interface Gi1/0/14: Power Device detected: IEEE PD
+*Jul  5 14:21:03.449: %ILPOWER-5-DETECT: Interface Gi2/0/2: Power Device detected: IEEE PD
+*Jul  5 14:21:03.670: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Jul  5 14:21:04.211: ILP:: switch 1 POE mode : IEEE AT
+*Jul  5 14:21:04.211: ILP:: POE POST for switch 1: PASS
+*Jul  5 14:21:04.492: %SYS-6-BOOTTIME: Time taken to reboot after reload =  998 seconds
+*Jul  5 14:21:04.498: %PNP-6-PNP_BEST_UDI_UPDATE: Best UDI [PID:C9300L-48UXG-4X,VID:04,SN:FOC2437L2Y9] identified via (master-registry)
+*Jul  5 14:21:04.498: %PNP-6-PNP_CDP_UPDATE: Device UDI [PID:C9300L-48UXG-4X,VID:04,SN:FOC2437L2Y9] identified for CDP
+*Jul  5 14:21:04.503: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Startup Config Present)
+*Jul  5 14:21:04.564: %ILPOWER-5-POWER_GRANTED: Interface Gi2/0/2: Power granted
+*Jul  5 14:21:04.565: %ILPOWER-5-DETECT: Interface Gi2/0/47: Power Device detected: IEEE PD
+*Jul  5 14:21:04.670: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Jul  5 14:21:05.287: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/10: Power granted
+*Jul  5 14:21:05.288: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/11: Power granted
+*Jul  5 14:21:05.288: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/12: Power granted
+*Jul  5 14:21:05.288: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/13: Power granted
+*Jul  5 14:21:05.288: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/14: Power granted
+*Jul  5 14:21:06.369: ILP:: switch 2 POE mode : IEEE AT
+*Jul  5 14:21:06.369: ILP:: POE POST for switch 2: PASS
+*Jul  5 14:21:07.155: ILP:: switch 3 POE mode : IEEE AT
+*Jul  5 14:21:07.156: ILP:: POE POST for switch 3: PASS
+*Jul  5 14:21:07.260: %ILPOWER-5-POWER_GRANTED: Interface Gi1/0/24: Power granted
+*Jul  5 14:21:08.566: %ILPOWER-5-POWER_GRANTED: Interface Gi2/0/47: Power granted
+*Jul  5 14:21:14.447: %PKI-2-NON_AUTHORITATIVE_CLOCK: PKI functions can not be initialized until an authoritative time source, like NTP, can be obtained.
+*Jul  5 14:21:15.251: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI_LEGACY created succesfully
+*Jul  5 14:21:15.261: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named CISCO_IDEVID_SUDI_LEGACY has been generated or imported by pki-sudi
+*Jul  5 14:21:15.286: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI_LEGACY0 created succesfully
+*Jul  5 14:21:15.290: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI created succesfully
+*Jul  5 14:21:15.298: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named CISCO_IDEVID_SUDI has been generated or imported by pki-sudi
+*Jul  5 14:21:15.348: %PKI-6-TRUSTPOINT_CREATE: Trustpoint: CISCO_IDEVID_SUDI0 created succesfully
+--- 07:21:31 ---
+68: mini-tb101fr: 2022-07-05T07:21:31: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <0> stack3-frkl-1 not ready, please wait...
+++++ 07:21:31 stack3-frkl-1 Control::transmit +++
+Transmit: 
++--- 07:21:31 ---
+++++ 07:22:01 stack3-frkl-1 Control::receive +++
+
+Switch>
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.900: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Gi2/1/1
+*Jul  5 14:21:40.387: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te3/1/1
+*Jul  5 14:21:41.833: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/2, changed state to up
+*Jul  5 14:21:41.951: %LINK-3-UPDOWN: Interface AppGigabitEthernet1/0/1, changed state to up
+*Jul  5 14:21:42.166: %LINK-3-UPDOWN: Interface AppGigabitEthernet2/0/1, changed state to up
+*Jul  5 14:21:42.834: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/2, changed state to up
+*Jul  5 14:21:42.951: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet1/0/1, changed state to up
+*Jul  5 14:21:43.166: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet2/0/1, changed state to up
+*Jul  5 14:21:43.537: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/27, changed state to up
+*Jul  5 14:21:43.701: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/29, changed state to up
+*Jul  5 14:21:43.763: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/47, changed state to up
+*Jul  5 14:21:43.866: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/30, changed state to up
+*Jul  5 14:21:44.507: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/48, changed state to up
+*Jul  5 14:21:44.537: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/27, changed state to up
+*Jul  5 14:21:44.701: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/29, changed state to up
+*Jul  5 14:21:44.762: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/47, changed state to up
+*Jul  5 14:21:44.865: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/30, changed state to up
+*Jul  5 14:21:44.935: %LINK-3-UPDOWN: Interface AppGigabitEthernet3/0/1, changed state to up
+*Jul  5 14:21:45.507: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/48, changed state to up
+*Jul  5 14:21:45.852: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+*Jul  5 14:21:45.935: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet3/0/1, changed state to up
+*Jul  5 14:21:46.168: %LINK-3-UPDOWN: Interface GigabitEthernet3/0/24, changed state to up
+*Jul  5 14:21:47.029: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/1
+*Jul  5 14:21:47.167: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/24, changed state to up
+*Jul  5 14:21:50.278: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/2
+*Jul  5 14:21:53.531: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/3
+*Jul  5 14:21:58.390: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/4
+*Jul  5 14:21:59.459: %WSMAN-3-INVALID_TRUSTPOINT: Trustpoint associated with HTTP is either invalid or does not exist
+*Jul  5 14:22:00.507: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/38, changed state to up
+*Jul  5 14:22:00.520: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/39, changed state to up
+*Jul  5 14:22:00.589: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/2, changed state to up
+*Jul  5 14:22:00.623: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/3, changed state to up
+*Jul  5 14:22:00.652: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/4, changed state to up
+*Jul  5 14:22:00.775: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+*Jul  5 14:22:00.782: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to up
+*Jul  5 14:22:00.787: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to up
+*Jul  5 14:22:00.794: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up
+*Jul  5 14:22:00.796: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Jul  5 14:22:00.804: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Jul  5 14:22:00.812: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/28, changed state to up
+*Jul  5 14:22:00.814: %LINK-3-UPDOWN: I
+--- 07:22:03 ---
+69: mini-tb101fr: 2022-07-05T07:22:03: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see > prompt, change to enable mode
+++++ 07:22:03 stack3-frkl-1 Control::transmit +++
+Transmit: enable
++--- 07:22:03 ---
+++++ 07:22:03 stack3-frkl-1 Control::receive +++
+nterface GigabitEthernet1/0/33, changed state to up
+*Jul  5 14:22:00.859: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/1, changed state to up
+*Jul  5 14:22:01.507: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/38, changed state to up
+*Jul  5 14:22:01.521: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/39, changed state to up
+*Jul  5 14:22:01.589: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/2, changed state to up
+*Jul  5 14:22:01.624: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/3, changed state to up
+*Jul  5 14:22:01.653: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/4, changed state to up
+*Jul  5 14:22:01.775: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+*Jul  5 14:22:01.782: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to up
+*Jul  5 14:22:01.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to up
+*Jul  5 14:22:01.795: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/24, changed state to up
+*Jul  5 14:22:01.796: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Jul  5 14:22:01.805: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to upenable
+Switch#
+*Jul  5 14:22:01.811: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/28, changed state to up
+*Jul  5 14:22:01.816: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/33, changed state to up
+*Jul  5 14:22:01.860: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/1, changed state to up
+--- 07:22:05 ---
+70: mini-tb101fr: 2022-07-05T07:22:05: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see # prompt, stack3-frkl-1 is ready
+++++ 07:22:05 stack3-frkl-1_2 Control::receive +++
+
+Switch>
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.900: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Gi2/1/1
+*Jul  5 14:21:40.387: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te3/1/1
+*Jul  5 14:21:41.833: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/2, changed state to up
+*Jul  5 14:21:41.951: %LINK-3-UPDOWN: Interface AppGigabitEthernet1/0/1, changed state to up
+*Jul  5 14:21:42.166: %LINK-3-UPDOWN: Interface AppGigabitEthernet2/0/1, changed state to up
+*Jul  5 14:21:42.834: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/2, changed state to up
+*Jul  5 14:21:42.951: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet1/0/1, changed state to up
+*Jul  5 14:21:43.166: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet2/0/1, changed state to up
+*Jul  5 14:21:43.537: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/27, changed state to up
+*Jul  5 14:21:43.701: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/29, changed state to up
+*Jul  5 14:21:43.763: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/47, changed state to up
+*Jul  5 14:21:43.866: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/30, changed state to up
+*Jul  5 14:21:44.507: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/48, changed state to up
+*Jul  5 14:21:44.537: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/27, changed state to up
+*Jul  5 14:21:44.701: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/29, changed state to up
+*Jul  5 14:21:44.762: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/47, changed state to up
+*Jul  5 14:21:44.865: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/30, changed state to up
+*Jul  5 14:21:44.935: %LINK-3-UPDOWN: Interface AppGigabitEthernet3/0/1, changed state to up
+*Jul  5 14:21:45.507: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/48, changed state to up
+*Jul  5 14:21:45.852: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+*Jul  5 14:21:45.935: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet3/0/1, changed state to up
+*Jul  5 14:21:46.168: %LINK-3-UPDOWN: Interface GigabitEthernet3/0/24, changed state to up
+*Jul  5 14:21:47.029: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/1
+*Jul  5 14:21:47.167: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/24, changed state to up
+*Jul  5 14:21:50.278: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/2
+*Jul  5 14:21:53.531: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/3
+*Jul  5 14:21:58.390: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/4
+*Jul  5 14:21:59.459: %WSMAN-3-INVALID_TRUSTPOINT: Trustpoint associated with HTTP is either invalid or does not exist
+*Jul  5 14:22:00.507: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/38, changed state to up
+*Jul  5 14:22:00.520: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/39, changed state to up
+*Jul  5 14:22:00.589: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/2, changed state to up
+*Jul  5 14:22:00.623: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/3, changed state to up
+*Jul  5 14:22:00.652: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/4, changed state to up
+*Jul  5 14:22:00.775: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+*Jul  5 14:22:00.782: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to up
+*Jul  5 14:22:00.787: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to up
+*Jul  5 14:22:00.794: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up
+*Jul  5 14:22:00.796: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Jul  5 14:22:00.804: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Jul  5 14:22:00.812: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/28, changed state to up
+*Jul  5 14:22:00.814: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/33, changed state to up
+*Jul  5 14:22:00.859: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/1, changed state to up
+*Jul  5 14:22:01.507: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/38, changed state to up
+*Jul  5 14:22:01.521: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/39, changed state to up
+*Jul  5 14:22:01.589: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/2, changed state to up
+*Jul  5 14:22:01.624: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/3, changed state to up
+*Jul  5 14:22:01.653: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/4, changed state to up
+*Jul  5 14:22:01.775: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+*Jul  5 14:22:01.782: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to up
+*Jul  5 14:22:01.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to up
+*Jul  5 14:22:01.795: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/24, changed state to up
+*Jul  5 14:22:01.796: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Jul  5 14:22:01.805: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Jul  5 14:22:01.811: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/28, changed state to up
+*Jul  5 14:22:01.816: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/33, changed state to up
+*Jul  5 14:22:01.860: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/1, changed state to up
+--- 07:22:07 ---
+71: mini-tb101fr: 2022-07-05T07:22:07: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see > prompt, change to enable mode
+++++ 07:22:07 stack3-frkl-1_2 Control::transmit +++
+Transmit: enable
++--- 07:22:07 ---
+++++ 07:22:07 stack3-frkl-1_2 Control::receive +++
+enable
+Switch#
+--- 07:22:09 ---
+72: mini-tb101fr: 2022-07-05T07:22:09: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see # prompt, stack3-frkl-1_2 is ready
+++++ 07:22:09 stack3-frkl-1_3 Control::receive +++
+
+Switch>
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.190: %EVENT_TRACE-6-ENABLE: Trace already enabled.
+*Jul  5 14:21:37.900: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Gi2/1/1
+*Jul  5 14:21:40.387: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te3/1/1
+*Jul  5 14:21:41.833: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/2, changed state to up
+*Jul  5 14:21:41.951: %LINK-3-UPDOWN: Interface AppGigabitEthernet1/0/1, changed state to up
+*Jul  5 14:21:42.166: %LINK-3-UPDOWN: Interface AppGigabitEthernet2/0/1, changed state to up
+*Jul  5 14:21:42.834: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/2, changed state to up
+*Jul  5 14:21:42.951: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet1/0/1, changed state to up
+*Jul  5 14:21:43.166: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet2/0/1, changed state to up
+*Jul  5 14:21:43.537: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/27, changed state to up
+*Jul  5 14:21:43.701: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/29, changed state to up
+*Jul  5 14:21:43.763: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/47, changed state to up
+*Jul  5 14:21:43.866: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/30, changed state to up
+*Jul  5 14:21:44.507: %LINK-3-UPDOWN: Interface GigabitEthernet2/0/48, changed state to up
+*Jul  5 14:21:44.537: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/27, changed state to up
+*Jul  5 14:21:44.701: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/29, changed state to up
+*Jul  5 14:21:44.762: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/47, changed state to up
+*Jul  5 14:21:44.865: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/30, changed state to up
+*Jul  5 14:21:44.935: %LINK-3-UPDOWN: Interface AppGigabitEthernet3/0/1, changed state to up
+*Jul  5 14:21:45.507: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/48, changed state to up
+*Jul  5 14:21:45.852: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+*Jul  5 14:21:45.935: %LINEPROTO-5-UPDOWN: Line protocol on Interface AppGigabitEthernet3/0/1, changed state to up
+*Jul  5 14:21:46.168: %LINK-3-UPDOWN: Interface GigabitEthernet3/0/24, changed state to up
+*Jul  5 14:21:47.029: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/1
+*Jul  5 14:21:47.167: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/24, changed state to up
+*Jul  5 14:21:50.278: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/2
+*Jul  5 14:21:53.531: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/3
+*Jul  5 14:21:58.390: %PLATFORM_PM-6-MODULE_INSERTED: SFP module inserted with interface name Te1/1/4
+*Jul  5 14:21:59.459: %WSMAN-3-INVALID_TRUSTPOINT: Trustpoint associated with HTTP is either invalid or does not exist
+*Jul  5 14:22:00.507: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/38, changed state to up
+*Jul  5 14:22:00.520: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/0/39, changed state to up
+*Jul  5 14:22:00.589: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/2, changed state to up
+*Jul  5 14:22:00.623: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/3, changed state to up
+*Jul  5 14:22:00.652: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/4, changed state to up
+*Jul  5 14:22:00.775: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+*Jul  5 14:22:00.782: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to up
+*Jul  5 14:22:00.787: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to up
+*Jul  5 14:22:00.794: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up
+*Jul  5 14:22:00.796: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Jul  5 14:22:00.804: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Jul  5 14:22:00.812: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/28, changed state to up
+*Jul  5 14:22:00.814: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/33, changed state to up
+*Jul  5 14:22:00.859: %LINK-3-UPDOWN: Interface TenGigabitEthernet1/1/1, changed state to up
+*Jul  5 14:22:01.507: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/38, changed state to up
+*Jul  5 14:22:01.521: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/0/39, changed state to up
+*Jul  5 14:22:01.589: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/2, changed state to up
+*Jul  5 14:22:01.624: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/3, changed state to up
+*Jul  5 14:22:01.653: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/4, changed state to up
+*Jul  5 14:22:01.775: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+*Jul  5 14:22:01.782: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to up
+*Jul  5 14:22:01.787: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to up
+*Jul  5 14:22:01.795: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/24, changed state to up
+*Jul  5 14:22:01.796: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Jul  5 14:22:01.805: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Jul  5 14:22:01.811: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/28, changed state to up
+*Jul  5 14:22:01.816: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/33, changed state to up
+*Jul  5 14:22:01.860: %LINEPROTO-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/1, changed state to up
+--- 07:22:11 ---
+73: mini-tb101fr: 2022-07-05T07:22:11: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see > prompt, change to enable mode
+++++ 07:22:11 stack3-frkl-1_3 Control::transmit +++
+Transmit: enable
++--- 07:22:11 ---
+++++ 07:22:11 stack3-frkl-1_3 Control::receive +++
+enable
+Switch#
+--- 07:22:13 ---
+74: mini-tb101fr: 2022-07-05T07:22:13: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see # prompt, stack3-frkl-1_3 is ready
+++++ 07:22:13 stack3-frkl-1 Control::transmit +++
+Transmit: 
++--- 07:22:13 ---
+++++ 07:22:13 stack3-frkl-1 Control::receive +++
+
+Switch#
+--- 07:22:15 ---
+++++ 07:22:15 stack3-frkl-1 Control::transmit +++
+Transmit: conf t
++--- 07:22:15 ---
+++++ 07:22:15 stack3-frkl-1 Control::receive +++
+conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#
+--- 07:22:17 ---
+++++ 07:22:17 stack3-frkl-1 Control::transmit +++
+Transmit: hostname stack3-frkl-1
++--- 07:22:17 ---
+++++ 07:22:17 stack3-frkl-1 Control::receive +++
+hostname stack3-frkl-1
+stack3-frkl-1(config)#
+--- 07:22:19 ---
+++++ 07:22:19 stack3-frkl-1 Control::transmit +++
+Transmit: end
++--- 07:22:19 ---
+++++ 07:22:19 stack3-frkl-1 Control::receive +++
+end
+stack3-frkl-1#
+*Jul  5 14:22:19.019: %SYS-5-CONFIG_I: Configured from console by console
+--- 07:22:21 ---
+75: mini-tb101fr: 2022-07-05T07:22:21: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see stack3-frkl-1 prompt, stack3-frkl-1 is ready
+++++ 07:22:21 stack3-frkl-1_2 Control::transmit +++
+Transmit: 
++--- 07:22:21 ---
+++++ 07:22:21 stack3-frkl-1_2 Control::receive +++
+
+*Jul  5 14:22:19.019: %SYS-5-CONFIG_I: Configured from console by console
+stack3-frkl-1#
+--- 07:22:23 ---
+76: mini-tb101fr: 2022-07-05T07:22:23: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see stack3-frkl-1 prompt, stack3-frkl-1_2 is ready
+++++ 07:22:23 stack3-frkl-1_3 Control::transmit +++
+Transmit: 
++--- 07:22:23 ---
+++++ 07:22:23 stack3-frkl-1_3 Control::receive +++
+
+*Jul  5 14:22:19.019: %SYS-5-CONFIG_I: Configured from console by console
+stack3-frkl-1#
+--- 07:22:25 ---
+77: mini-tb101fr: 2022-07-05T07:22:25: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: see stack3-frkl-1 prompt, stack3-frkl-1_3 is ready
+++++ 07:22:45 stack3-frkl-1 Control::transmit +++
+Transmit: enable
++--- 07:22:45 ---
+++++ 07:22:45 stack3-frkl-1 Control::receive +++
+
+stack3-frkl-1#enable
+stack3-frkl-1#
+--- 07:22:45 ---
+++++ 07:22:45 stack3-frkl-1 Control::transmit +++
+Transmit: terminal length 0
++--- 07:22:45 ---
+++++ 07:22:45 stack3-frkl-1 Control::receive +++
+
+--- 07:22:45 ---
+++++ 07:22:45 stack3-frkl-1 Control::transmit +++
+Transmit: show switch | exc unscaled
++--- 07:22:45 ---
+++++ 07:22:45 stack3-frkl-1 Control::receive +++
+terminal length 0
+stack3-frkl-1#show switch | exc unscaled
+Switch/Stack Mac Address : e41f.7b40.d900 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State 
+-------------------------------------------------------------------------------------
+*1       Active   e41f.7b40.d900     15     V01     Ready                               
+ 2       Member   0476.b04b.b300     10     V01     Ready                               
+ 3       Member   ac7a.56fc.c000     7      V01     Ready                               
+
+
+
+stack3-frkl-1#
+--- 07:22:50 ---
+
++++ 07:22:50 stack3-frkl-1 exec +++
+show redundancy state
+       my state = 13 -ACTIVE 
+     peer state = 1  -DISABLED 
+           Mode = Simplex
+           Unit = Primary
+        Unit ID = 1
+
+Redundancy Mode (Operational) = Non-redundant
+Redundancy Mode (Configured)  = sso
+Redundancy State              = Non Redundant
+     Maintenance Mode = Disabled
+    Manual Swact = disabled (system is simplex (no peer unit))
+ Communications = Down      Reason: Simplex mode
+
+   client count = 122
+ client_notification_TMR = 30000 milliseconds
+           RF debug mask = 0x0   
+
+stack3-frkl-1#
+--- 07:22:51 ---
+++++ 07:22:51 stack3-frkl-1 Control::transmit +++
+Transmit: enable
++--- 07:22:51 ---
+++++ 07:22:51 stack3-frkl-1 Control::receive +++
+
+stack3-frkl-1#enable
+stack3-frkl-1#
+--- 07:22:51 ---
+++++ 07:22:51 stack3-frkl-1 Control::transmit +++
+Transmit: terminal length 0
++--- 07:22:51 ---
+++++ 07:22:51 stack3-frkl-1 Control::receive +++
+
+--- 07:22:51 ---
+++++ 07:22:51 stack3-frkl-1 Control::transmit +++
+Transmit: show switch | exc unscaled
++--- 07:22:51 ---
+++++ 07:22:51 stack3-frkl-1 Control::receive +++
+terminal length 0
+stack3-frkl-1#show switch | exc unscaled
+Switch/Stack Mac Address : e41f.7b40.d900 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State 
+-------------------------------------------------------------------------------------
+*1       Active   e41f.7b40.d900     15     V01     Ready                               
+ 2       Member   0476.b04b.b300     10     V01     Ready                               
+ 3       Member   ac7a.56fc.c000     7      V01     Ready                               
+
+
+
+stack3-frkl-1#
+--- 07:22:56 ---
+
++++ 07:22:56 stack3-frkl-1 exec +++
+show redundancy state
+       my state = 13 -ACTIVE 
+     peer state = 1  -DISABLED 
+           Mode = Simplex
+           Unit = Primary
+        Unit ID = 1
+
+Redundancy Mode (Operational) = Non-redundant
+Redundancy Mode (Configured)  = sso
+Redundancy State              = Non Redundant
+     Maintenance Mode = Disabled
+    Manual Swact = disabled (system is simplex (no peer unit))
+ Communications = Down      Reason: Simplex mode
+
+   client count = 122
+ client_notification_TMR = 30000 milliseconds
+           RF debug mask = 0x0   
+
+stack3-frkl-1#
+--- 07:22:56 ---
+78: mini-tb101fr: 2022-07-05T07:22:56: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <0> stack3-frkl-1 is not ready yet, please wait...
+++++ 07:23:26 stack3-frkl-1 Control::transmit +++
+Transmit: enable
++--- 07:23:26 ---
+++++ 07:23:26 stack3-frkl-1 Control::receive +++
+
+*Jul  5 14:22:58.846: %IOSXE_REDUNDANCY-6-PEER: Active detected switch 2 as standby.
+*Jul  5 14:22:58.841: %STACKMGR-6-STANDBY_ELECTED: Switch 1 R0/0: stack_mgr: Switch 2 has been elected STANDBY.
+*Jul  5 14:23:03.872: %REDUNDANCY-5-PEER_MONITOR_EVENT: Active detected a standby insertion (raw-event=PEER_FOUND(4))
+
+*Jul  5 14:23:03.872: %REDUNDANCY-5-PEER_MONITOR_EVENT: Active detected a standby insertion (raw-event=PEER_REDUNDANCY_STATE_CHANGE(5))
+
+stack3-frkl-1#enable
+stack3-frkl-1#
+--- 07:23:26 ---
+++++ 07:23:26 stack3-frkl-1 Control::transmit +++
+Transmit: terminal length 0
++--- 07:23:26 ---
+++++ 07:23:26 stack3-frkl-1 Control::receive +++
+
+--- 07:23:26 ---
+++++ 07:23:27 stack3-frkl-1 Control::transmit +++
+Transmit: show switch | exc unscaled
++--- 07:23:27 ---
+++++ 07:23:27 stack3-frkl-1 Control::receive +++
+terminal length 0
+stack3-frkl-1#show switch | exc unscaled
+Switch/Stack Mac Address : e41f.7b40.d900 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State 
+-------------------------------------------------------------------------------------
+*1       Active   e41f.7b40.d900     15     V01     Ready                               
+ 2       Standby  0476.b04b.b300     10     V01     HA sync in progress                 
+ 3       Member   ac7a.56fc.c000     7      V01     Ready                               
+
+
+
+stack3-frkl-1#
+--- 07:23:32 ---
+
++++ 07:23:32 stack3-frkl-1 exec +++
+show redundancy state
+       my state = 13 -ACTIVE 
+     peer state = in progress to standby cold-config
+           Mode = Duplex
+           Unit = Primary
+        Unit ID = 1
+
+Redundancy Mode (Operational) = sso
+Redundancy Mode (Configured)  = sso
+Redundancy State              = sso
+     Maintenance Mode = Disabled
+    Manual Swact = disabled (peer unit not yet in terminal standby state)
+ Communications = Up
+
+   client count = 122
+ client_notification_TMR = 30000 milliseconds
+           RF debug mask = 0x0   
+
+Current client in progression               = NVE (160)
+Time since client was sent progression (ms) = 199
+History for this client progression         = RF_PROG_STANDBY_CONFIG, rc 0 
+
+stack3-frkl-1#
+--- 07:23:33 ---
+79: mini-tb101fr: 2022-07-05T07:23:33: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: <30> Active or Standby switch is not ready, please wait...
+++++ 07:24:03 stack3-frkl-1 Control::transmit +++
+Transmit: enable
++--- 07:24:03 ---
+++++ 07:24:03 stack3-frkl-1 Control::receive +++
+
+*Jul  5 14:23:58.491: %HA_CONFIG_SYNC-6-BULK_CFGSYNC_SUCCEED: Bulk Sync succeeded
+*Jul  5 14:23:59.495: %RF-5-RF_TERMINAL_STATE: Terminal state reached for (SSO)
+*Jul  5 14:23:59.499: GRACEFUL-RELOAD: Wrong state: 2 to recieve chasfs event: 
+
+stack3-frkl-1#enable
+stack3-frkl-1#
+--- 07:24:03 ---
+++++ 07:24:03 stack3-frkl-1 Control::transmit +++
+Transmit: terminal length 0
++--- 07:24:03 ---
+++++ 07:24:03 stack3-frkl-1 Control::receive +++
+
+--- 07:24:03 ---
+++++ 07:24:03 stack3-frkl-1 Control::transmit +++
+Transmit: show switch | exc unscaled
++--- 07:24:03 ---
+++++ 07:24:04 stack3-frkl-1 Control::receive +++
+terminal length 0
+stack3-frkl-1#show switch | exc unscaled
+Switch/Stack Mac Address : e41f.7b40.d900 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State 
+-------------------------------------------------------------------------------------
+*1       Active   e41f.7b40.d900     15     V01     Ready                               
+ 2       Standby  0476.b04b.b300     10     V01     Ready                               
+ 3       Member   ac7a.56fc.c000     7      V01     Ready                               
+
+
+
+stack3-frkl-1#
+--- 07:24:09 ---
+
++++ 07:24:09 stack3-frkl-1 exec +++
+show redundancy state
+       my state = 13 -ACTIVE 
+     peer state = 8  -STANDBY HOT 
+           Mode = Duplex
+           Unit = Primary
+        Unit ID = 1
+
+Redundancy Mode (Operational) = sso
+Redundancy Mode (Configured)  = sso
+Redundancy State              = sso
+     Maintenance Mode = Disabled
+    Manual Swact = enabled
+ Communications = Up
+
+   client count = 122
+ client_notification_TMR = 30000 milliseconds
+           RF debug mask = 0x0   
+
+stack3-frkl-1#
+--- 07:24:10 ---
+++++ 07:24:10 stack3-frkl-1 Control::transmit +++
+Transmit: enable
++--- 07:24:10 ---
+++++ 07:24:10 stack3-frkl-1 Control::receive +++
+enable
+stack3-frkl-1#
+--- 07:24:12 ---
+80: mini-tb101fr: 2022-07-05T07:24:12: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: wait_stack_ready stack3-frkl-1 dut_memebers done
+
++++ 07:24:12 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#no service config
+stack3-frkl-1(config)#no logging console
+stack3-frkl-1(config)#line con 0
+stack3-frkl-1(config-line)#exec-timeout 0
+stack3-frkl-1(config-line)#end
+stack3-frkl-1#
+--- 07:24:13 ---
+
++++ 07:24:13 stack3-frkl-1 exec +++
+term width 0
+stack3-frkl-1#
+--- 07:24:13 ---
+
++++ 07:24:13 stack3-frkl-1 exec +++
+term length 0
+stack3-frkl-1#
+--- 07:24:13 ---
+
++++ 07:24:13 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#no system ignore startupconfig switch all
+Applying config on Switch 1...[DONE]
+Applying config on Switch 2...[DONE]
+Applying config on Switch 3...[DONE]
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:24:15 ---
+
++++ 07:24:15 stack3-frkl-1 exec +++
+show ip interface brief | include up
+Vlan1                  unassigned      YES unset  up                    up      
+GigabitEthernet0/0     unassigned      YES unset  up                    up      
+GigabitEthernet1/0/2   unassigned      YES unset  up                    up      
+GigabitEthernet1/0/4   unassigned      YES unset  up                    up      
+GigabitEthernet1/0/5   unassigned      YES unset  up                    up      
+GigabitEthernet1/0/24  unassigned      YES unset  up                    up      
+GigabitEthernet1/0/26  unassigned      YES unset  up                    up      
+GigabitEthernet1/0/27  unassigned      YES unset  up                    up      
+GigabitEthernet1/0/28  unassigned      YES unset  up                    up      
+GigabitEthernet1/0/33  unassigned      YES unset  up                    up      
+Te1/0/38               unassigned      YES unset  up                    up      
+Te1/0/39               unassigned      YES unset  up                    up      
+Ap1/0/1                unassigned      YES unset  up                    up      
+Te1/1/1                unassigned      YES unset  up                    up      
+Te1/1/2                unassigned      YES unset  up                    up      
+Te1/1/3                unassigned      YES unset  up                    up      
+Te1/1/4                unassigned      YES unset  up                    up      
+GigabitEthernet2/0/2   unassigned      YES unset  up                    up      
+GigabitEthernet2/0/27  unassigned      YES unset  up                    up      
+GigabitEthernet2/0/29  unassigned      YES unset  up                    up      
+GigabitEthernet2/0/30  unassigned      YES unset  up                    up      
+GigabitEthernet2/0/47  unassigned      YES unset  up                    up      
+GigabitEthernet2/0/48  unassigned      YES unset  up                    up      
+Ap2/0/1                unassigned      YES unset  up                    up      
+GigabitEthernet3/0/24  unassigned      YES unset  up                    up      
+Ap3/0/1                unassigned      YES unset  up                    up      
+stack3-frkl-1#
+--- 07:24:17 ---
+
++++ 07:24:17 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet0/0
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:18 ---
+
++++ 07:24:18 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/2
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:18 ---
+
++++ 07:24:18 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/4
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:19 ---
+
++++ 07:24:19 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/5
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:19 ---
+
++++ 07:24:19 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/24
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:20 ---
+
++++ 07:24:20 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/26
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:20 ---
+
++++ 07:24:20 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/27
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:20 ---
+
++++ 07:24:20 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/28
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:21 ---
+
++++ 07:24:21 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/33
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:21 ---
+
++++ 07:24:21 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Te1/0/38
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:22 ---
+
++++ 07:24:22 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Te1/0/39
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:22 ---
+
++++ 07:24:22 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Ap1/0/1
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:23 ---
+
++++ 07:24:23 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Te1/1/1
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:23 ---
+
++++ 07:24:23 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Te1/1/2
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:24 ---
+
++++ 07:24:24 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Te1/1/3
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:24 ---
+
++++ 07:24:24 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Te1/1/4
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:25 ---
+
++++ 07:24:25 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/2
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:25 ---
+
++++ 07:24:25 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/27
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:26 ---
+
++++ 07:24:26 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/29
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:26 ---
+
++++ 07:24:26 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/30
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:26 ---
+
++++ 07:24:27 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/47
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:27 ---
+
++++ 07:24:27 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/48
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:27 ---
+
++++ 07:24:27 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Ap2/0/1
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:28 ---
+
++++ 07:24:28 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet3/0/24
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:28 ---
+
++++ 07:24:28 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface Ap3/0/1
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:24:29 ---
+
++++ 07:24:29 stack3-frkl-1 exec +++
+write
+Building configuration...
+[OK]
+stack3-frkl-1#
+--- 07:24:34 ---
+81: mini-tb101fr: 2022-07-05T07:24:34: %SCRIPT-6-COMMENT: %[pname=TRP-__taskid1]: dut_stack_clear_config stack3-frkl-1 done
+
++++ 07:24:34 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#default interface GigabitEthernet1/0/4
+Interface GigabitEthernet1/0/4 set to default configuration
+stack3-frkl-1(config)#default interface GigabitEthernet1/0/4
+Interface GigabitEthernet1/0/4 set to default configuration
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:24:35 ---
+
++++ 07:24:35 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#default interface GigabitEthernet2/0/48
+Interface GigabitEthernet2/0/48 set to default configuration
+stack3-frkl-1(config)#default interface GigabitEthernet2/0/48
+Interface GigabitEthernet2/0/48 set to default configuration
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:24:35 ---
+82: mini-tb101fr: 2022-07-05T07:24:35: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: stoptime: 2022-07-05 07:24:35
+83: mini-tb101fr: 2022-07-05T07:24:36: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Completed execution of section common_setup
+84: mini-tb101fr: 2022-07-05T07:24:36: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: The result for section common_setup is => PASS
+85: mini-tb101fr: 2022-07-05T07:24:36: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Starting execution of section common_verify
+86: mini-tb101fr: 2022-07-05T07:24:36: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: name: common_verify
+87: mini-tb101fr: 2022-07-05T07:24:36: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: starttime: 2022-07-05 07:24:36
+88: mini-tb101fr: 2022-07-05T07:24:36: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Verifying the interface status on stack3-frkl-1
+
++++ 07:24:36 stack3-frkl-1 exec +++
+show interfaces GigabitEthernet1/0/4
+GigabitEthernet1/0/4 is down, line protocol is down (notconnect) 
+  Hardware is Gigabit Ethernet, address is e41f.7b40.d904 (bia e41f.7b40.d904)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  input flow-control is on, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output 00:00:17, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     131 packets output, 19430 bytes, 0 underruns
+     Output 15 broadcasts (101 multicasts)
+     0 output errors, 0 collisions, 3 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+stack3-frkl-1#
+--- 07:24:37 ---
+
++++ 07:24:47 stack3-frkl-1 exec +++
+show interfaces GigabitEthernet1/0/4
+GigabitEthernet1/0/4 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is e41f.7b40.d904 (bia e41f.7b40.d904)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX
+  input flow-control is on, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     136 packets output, 19750 bytes, 0 underruns
+     Output 15 broadcasts (106 multicasts)
+     0 output errors, 0 collisions, 3 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+stack3-frkl-1#
+--- 07:24:49 ---
+89: mini-tb101fr: 2022-07-05T07:24:49: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Interface GigabitEthernet1/0/4 is up on stack3-frkl-1 -- SUCCESS
+
++++ 07:24:49 stack3-frkl-1 exec +++
+show interfaces GigabitEthernet2/0/48
+GigabitEthernet2/0/48 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is 0476.b04b.b330 (bia 0476.b04b.b330)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX
+  input flow-control is on, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     167 packets output, 24402 bytes, 0 underruns
+     Output 16 broadcasts (131 multicasts)
+     0 output errors, 0 collisions, 3 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+stack3-frkl-1#
+--- 07:24:51 ---
+90: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Interface GigabitEthernet2/0/48 is up on stack3-frkl-1 -- SUCCESS
+91: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: stoptime: 2022-07-05 07:24:51
+92: mini-tb101fr: 2022-07-05T07:24:51: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Completed execution of section common_verify
+93: mini-tb101fr: 2022-07-05T07:24:51: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: The result for section common_verify is => PASS
+94: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: id: Tsz4741750c
+95: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: name: Tsz4741750c
+96: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: starttime: 2022-07-05 07:24:51
+97: mini-tb101fr: 2022-07-05T07:24:51: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Checking for dependencies for test case 'Tsz4741750c'
+98: mini-tb101fr: 2022-07-05T07:24:51: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Starting execution of testcase Tsz4741750c
+99: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: name: Testcase Tsz4741750c 
+100: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: descr: g
+101: mini-tb101fr: 2022-07-05T07:24:51: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Starting execution of section setup in Tsz4741750c
+102: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Verifying image 'image_ver' in Performance DB
+103: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: WARNING: There is no version '17.6.4' in performance DB
+104: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: WARNING: There is no version '17.6.4' in performance DB
+105: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.01/43][pname=TRP-__taskid1]: diag: 12.2(25)EWA
+106: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.02/43][pname=TRP-__taskid1]: 12.2(31)SGA
+107: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.03/43][pname=TRP-__taskid1]: 12.2(40)SG
+108: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.04/43][pname=TRP-__taskid1]: 12.2(37)SG
+109: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.05/43][pname=TRP-__taskid1]: 12.2(46)SG
+110: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.06/43][pname=TRP-__taskid1]: 12.2(52)XO
+111: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.07/43][pname=TRP-__taskid1]: 12.2(52)SG
+112: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.08/43][pname=TRP-__taskid1]: 12.2(54)SG
+113: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.09/43][pname=TRP-__taskid1]: 15.0(2)SE3
+114: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.10/43][pname=TRP-__taskid1]: 15.0(1)XO
+115: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.11/43][pname=TRP-__taskid1]: 3.2.0SG
+116: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.12/43][pname=TRP-__taskid1]: 3.3.0SG
+117: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.13/43][pname=TRP-__taskid1]: 3.2.0XO
+118: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.14/43][pname=TRP-__taskid1]: 12.2(58)SE
+119: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.15/43][pname=TRP-__taskid1]: 12.2(55)SE
+120: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.16/43][pname=TRP-__taskid1]: 15.0(2)SE
+121: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.17/43][pname=TRP-__taskid1]: 15.0(1)EX
+122: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.18/43][pname=TRP-__taskid1]: 15.2(1)E
+123: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.19/43][pname=TRP-__taskid1]: 15.0(2)EX
+124: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.20/43][pname=TRP-__taskid1]: 3.3(1)SG
+125: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.21/43][pname=TRP-__taskid1]: 3.4.0SG
+126: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.22/43][pname=TRP-__taskid1]: 15.2(01)EX
+127: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.23/43][pname=TRP-__taskid1]: 15.0(1)EZ
+128: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.24/43][pname=TRP-__taskid1]: 15.2(2)E
+129: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.25/43][pname=TRP-__taskid1]: 15.0(2)SE5
+130: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.26/43][pname=TRP-__taskid1]: 12.2(55)SE9
+131: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.27/43][pname=TRP-__taskid1]: 15.2(3)E
+132: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.28/43][pname=TRP-__taskid1]: 15.2(4)E
+133: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.29/43][pname=TRP-__taskid1]: 15.2(4)E1
+134: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.30/43][pname=TRP-__taskid1]: 15.2(4)E2
+135: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.31/43][pname=TRP-__taskid1]: 15.2(5)
+136: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.32/43][pname=TRP-__taskid1]: 16.3.1
+137: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.33/43][pname=TRP-__taskid1]: 16.5.1
+138: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.34/43][pname=TRP-__taskid1]: 15.2(4)E3
+139: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.35/43][pname=TRP-__taskid1]: 15.2(5)E1
+140: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.36/43][pname=TRP-__taskid1]: 15.2(2)E6
+141: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.37/43][pname=TRP-__taskid1]: 15.2(5)E2
+142: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.38/43][pname=TRP-__taskid1]: 15.2(4)E4
+143: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.39/43][pname=TRP-__taskid1]: 3.10.0
+144: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.40/43][pname=TRP-__taskid1]: 3.10.1E
+145: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.41/43][pname=TRP-__taskid1]: 16.8.1
+146: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.42/43][pname=TRP-__taskid1]: 15.2(4)E8
+147: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[part=105.43/43][pname=TRP-__taskid1]: 03.11.00E
+148: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.01/43][pname=TRP-__taskid1]: 12.2(25)EWA
+149: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.02/43][pname=TRP-__taskid1]: 12.2(31)SGA
+150: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.03/43][pname=TRP-__taskid1]: 12.2(40)SG
+151: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.04/43][pname=TRP-__taskid1]: 12.2(37)SG
+152: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.05/43][pname=TRP-__taskid1]: 12.2(46)SG
+153: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.06/43][pname=TRP-__taskid1]: 12.2(52)XO
+154: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.07/43][pname=TRP-__taskid1]: 12.2(52)SG
+155: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.08/43][pname=TRP-__taskid1]: 12.2(54)SG
+156: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.09/43][pname=TRP-__taskid1]: 15.0(2)SE3
+157: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.10/43][pname=TRP-__taskid1]: 15.0(1)XO
+158: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.11/43][pname=TRP-__taskid1]: 3.2.0SG
+159: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.12/43][pname=TRP-__taskid1]: 3.3.0SG
+160: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.13/43][pname=TRP-__taskid1]: 3.2.0XO
+161: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.14/43][pname=TRP-__taskid1]: 12.2(58)SE
+162: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.15/43][pname=TRP-__taskid1]: 12.2(55)SE
+163: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.16/43][pname=TRP-__taskid1]: 15.0(2)SE
+164: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.17/43][pname=TRP-__taskid1]: 15.0(1)EX
+165: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.18/43][pname=TRP-__taskid1]: 15.2(1)E
+166: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.19/43][pname=TRP-__taskid1]: 15.0(2)EX
+167: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.20/43][pname=TRP-__taskid1]: 3.3(1)SG
+168: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.21/43][pname=TRP-__taskid1]: 3.4.0SG
+169: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.22/43][pname=TRP-__taskid1]: 15.2(01)EX
+170: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.23/43][pname=TRP-__taskid1]: 15.0(1)EZ
+171: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.24/43][pname=TRP-__taskid1]: 15.2(2)E
+172: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.25/43][pname=TRP-__taskid1]: 15.0(2)SE5
+173: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.26/43][pname=TRP-__taskid1]: 12.2(55)SE9
+174: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.27/43][pname=TRP-__taskid1]: 15.2(3)E
+175: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.28/43][pname=TRP-__taskid1]: 15.2(4)E
+176: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.29/43][pname=TRP-__taskid1]: 15.2(4)E1
+177: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.30/43][pname=TRP-__taskid1]: 15.2(4)E2
+178: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.31/43][pname=TRP-__taskid1]: 15.2(5)
+179: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.32/43][pname=TRP-__taskid1]: 16.3.1
+180: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.33/43][pname=TRP-__taskid1]: 16.5.1
+181: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.34/43][pname=TRP-__taskid1]: 15.2(4)E3
+182: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.35/43][pname=TRP-__taskid1]: 15.2(5)E1
+183: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.36/43][pname=TRP-__taskid1]: 15.2(2)E6
+184: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.37/43][pname=TRP-__taskid1]: 15.2(5)E2
+185: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.38/43][pname=TRP-__taskid1]: 15.2(4)E4
+186: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.39/43][pname=TRP-__taskid1]: 3.10.0
+187: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.40/43][pname=TRP-__taskid1]: 3.10.1E
+188: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.41/43][pname=TRP-__taskid1]: 16.8.1
+189: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.42/43][pname=TRP-__taskid1]: 15.2(4)E8
+190: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[part=148.43/43][pname=TRP-__taskid1]: 03.11.00E
+191: mini-tb101fr: 2022-07-05T07:24:51: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: The script will not log the result into the DB.
+192: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: The script will not log the result into the DB.
+193: mini-tb101fr: 2022-07-05T07:24:51: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Verifying platform 'WS-C3850-48' matches hardware
+
++++ 07:24:51 stack3-frkl-1 exec +++
+show version
+Cisco IOS XE Software, Version BLD_V176_THROTTLE_LATEST_20220624_143828_V17_6_3_14
+Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.6.20220624:151353 [S2C-build-v176_throttle-4534-/nobackup/mcpre/BLD-BLD_V176_THROTTLE_LATEST_20220624_143828 173]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Fri 24-Jun-22 18:36 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2022 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.10.1r, RELEASE SOFTWARE (P)
+
+stack3-frkl-1 uptime is 4 minutes
+Uptime for this control processor is 5 minutes
+System returned to ROM by Reload Command at 07:04:26 PDT Tue Jul 5 2022
+System image file is "flash:packages.conf"
+Last reload reason: Reload Command
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+Technology Package License Information: 
+
+------------------------------------------------------------------------------
+Technology-package                                     Technology-package
+Current                        Type                       Next reboot  
+------------------------------------------------------------------------------
+network-advantage   	Smart License                 	 network-advantage   
+dna-advantage       	Subscription Smart License    	 dna-advantage                 
+AIR License Level: AIR DNA Advantage
+Next reload AIR license Level: AIR DNA Advantage
+
+
+Smart Licensing Status: Registration Not Applicable/Not Applicable
+
+cisco C9300L-48UXG-4X (X86) processor with 1317126K/6147K bytes of memory.
+Processor board ID FOC2437L2Y9
+1 Virtual Ethernet interface
+136 Gigabit Ethernet interfaces
+20 Ten Gigabit Ethernet interfaces
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-2:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-2:.
+11264000K bytes of Flash at flash-3:.
+16789568K bytes of USB Flash at usbflash0:.
+15478848K bytes of USB Flash at usbflash0-2:.
+15478848K bytes of USB Flash at usbflash0-3:.
+117219783K bytes of USB Flash at usbflash1:.
+117219783K bytes of USB Flash at usbflash1-2:.
+117219783K bytes of USB Flash at usbflash1-3:.
+
+Base Ethernet MAC Address          : e4:1f:7b:40:d9:00
+Motherboard Assembly Number        : 73-102174-01
+Motherboard Serial Number          : FOC24311S98
+Model Revision Number              : 04
+Motherboard Revision Number        : 07
+Model Number                       : C9300L-48UXG-4X
+System Serial Number               : FOC2437L2Y9
+CLEI Code Number                   : 
+
+
+Switch Ports Model              SW Version        SW Image              Mode   
+------ ----- -----              ----------        ----------            ----   
+*    1 53    C9300L-48UXG-4X    17.06.04          CAT9K_IOSXE           INSTALL
+     2 53    C9300L-48P-4G      17.06.04          CAT9K_IOSXE           INSTALL
+     3 53    C9300L-48P-4X      17.06.04          CAT9K_IOSXE           INSTALL
+
+
+Switch 02
+---------
+Switch uptime                      : 5 minutes 
+
+Base Ethernet MAC Address          : 04:76:b0:4b:b3:00
+Motherboard Assembly Number        : 73-19130-05
+Motherboard Serial Number          : FJZ244108CR
+Model Revision Number              : F0
+Motherboard Revision Number        : C0
+Model Number                       : C9300L-48P-4G
+System Serial Number               : FJC24411W51
+Last reload reason                 : Reload Command
+CLEI Code Number                   : 
+
+Switch 03
+---------
+Switch uptime                      : 5 minutes 
+
+Base Ethernet MAC Address          : ac:7a:56:fc:c0:00
+Motherboard Assembly Number        : 73-102170-02
+Motherboard Serial Number          : FOC241427MD
+Model Revision Number              : 03
+Motherboard Revision Number        : 02
+Model Number                       : C9300L-48P-4X
+System Serial Number               : FOC2418L9YW
+Last reload reason                 : Reload Command
+CLEI Code Number                   : 
+
+stack3-frkl-1#
+--- 07:24:57 ---
+194: mini-tb101fr: 2022-07-05T07:24:57: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Test Aborting
+195: mini-tb101fr: 2022-07-05T07:24:57: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Test Aborting
+196: mini-tb101fr: 2022-07-05T07:24:57: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: WARNING: DUT1 (stack3-frkl-1) has mismatched platform.
+197: mini-tb101fr: 2022-07-05T07:24:57: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: WARNING: DUT1 (stack3-frkl-1) has mismatched platform.
+198: mini-tb101fr: 2022-07-05T07:24:57: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Platform argument: WS-C3850-48
+199: mini-tb101fr: 2022-07-05T07:24:57: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Platform argument: WS-C3850-48
+200: mini-tb101fr: 2022-07-05T07:24:57: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Actual plaform: C9300L-48P-4X
+201: mini-tb101fr: 2022-07-05T07:24:57: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Actual plaform: C9300L-48P-4X
+202: mini-tb101fr: 2022-07-05T07:24:57: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: The script will not log the result into the DB.
+203: mini-tb101fr: 2022-07-05T07:24:57: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: The script will not log the result into the DB.
+204: mini-tb101fr: 2022-07-05T07:24:57: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Verifying platform 'WS-C3850-48' in Performance DB
+205: mini-tb101fr: 2022-07-05T07:24:58: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Verifying title 'dsbucall11.3.9' in Performance DB
+206: mini-tb101fr: 2022-07-05T07:24:59: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Verifying if baseline result exists:
+207: mini-tb101fr: 2022-07-05T07:24:59: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: WARNING: there is no baseline for dsbucall11.3.9 with platform 'WS-C3850-48', in the performance DB
+208: mini-tb101fr: 2022-07-05T07:24:59: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: WARNING: there is no baseline for dsbucall11.3.9 with platform 'WS-C3850-48', in the performance DB
+209: mini-tb101fr: 2022-07-05T07:24:59: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Could not get baseline results from perf database
+210: mini-tb101fr: 2022-07-05T07:24:59: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Manually setting Baseline for ipv6 mroute
+211: mini-tb101fr: 2022-07-05T07:24:59: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Configure stack3-frkl-1
+
++++ 07:24:59 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#ipv6 unicast-routing
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:24:59 ---
+
++++ 07:24:59 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#ipv6 multicast-routing
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:24:59 ---
+
++++ 07:24:59 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#ipv6 mld snooping
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:25:00 ---
+
++++ 07:25:00 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/4
+stack3-frkl-1(config-if)#no switchport
+stack3-frkl-1(config-if)#ipv6 enable
+stack3-frkl-1(config-if)#no shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:25:01 ---
+
++++ 07:25:01 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/4
+stack3-frkl-1(config-if)#ipv6 pim
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:25:01 ---
+
++++ 07:25:01 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/48
+stack3-frkl-1(config-if)#no switchport
+stack3-frkl-1(config-if)#ipv6 enable
+stack3-frkl-1(config-if)#no shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:25:02 ---
+
++++ 07:25:02 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/48
+stack3-frkl-1(config-if)#ipv6 pim
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:25:02 ---
+
++++ 07:25:02 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/4
+stack3-frkl-1(config-if)#ipv6 address 2001:1:1:1::1/64
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:25:03 ---
+
++++ 07:25:03 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/48
+stack3-frkl-1(config-if)#ipv6 address 2001:1:1:3::1/64
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:25:03 ---
+212: mini-tb101fr: 2022-07-05T07:25:03: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Configuring IXIA-XM12-1
+
++++ 07:25:03 stack3-frkl-1 exec +++
+show interface GigabitEthernet1/0/4
+GigabitEthernet1/0/4 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is e41f.7b40.d976 (bia e41f.7b40.d976)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX
+  input flow-control is on, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output 00:00:03, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     156 packets output, 24446 bytes, 0 underruns
+     Output 15 broadcasts (0 IP multicasts)
+     0 output errors, 0 collisions, 4 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+stack3-frkl-1#
+--- 07:25:05 ---
+
++++ 07:25:05 stack3-frkl-1 exec +++
+show interface GigabitEthernet2/0/48
+GigabitEthernet2/0/48 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is e41f.7b40.d955 (bia e41f.7b40.d955)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX
+  input flow-control is on, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output 00:00:03, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 2000 bits/sec, 1 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     183 packets output, 27619 bytes, 0 underruns
+     Output 16 broadcasts (0 IP multicasts)
+     0 output errors, 0 collisions, 4 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+stack3-frkl-1#
+--- 07:25:07 ---
+213: mini-tb101fr: 2022-07-05T07:25:07: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Completed execution of section setup in Tsz4741750c
+214: mini-tb101fr: 2022-07-05T07:25:07: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: The result for section setup is => PASS
+215: mini-tb101fr: 2022-07-05T07:25:07: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Starting execution of section test in Tsz4741750c
+216: mini-tb101fr: 2022-07-05T07:25:07: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: check for default routes
+
++++ 07:25:07 stack3-frkl-1 exec +++
+show ipv6 mroute count | inc route
+ 52 routes, 6 (*,G)s, 46 (*,G/m)s
+stack3-frkl-1#
+--- 07:25:07 ---
+217: mini-tb101fr: 2022-07-05T07:25:07: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Send 1000 ipv6 multicast groups from from 1,7,13
+218: mini-tb101fr: 2022-07-05T07:26:08: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: reset counters on IXIA-XM12-1 ports: 1,7,13 1,7,14
+219: mini-tb101fr: 2022-07-05T07:26:08: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Transmit packets on port: 1,7,14
+220: mini-tb101fr: 2022-07-05T07:26:23: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Verifying the tg counters
+221: mini-tb101fr: 2022-07-05T07:26:23: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest1: Verifying number of routes advertised in  show ipv6 mrount count
+
++++ 07:26:23 stack3-frkl-1 exec +++
+show ipv6 mroute count | inc route
+ 1052 routes, 1006 (*,G)s, 46 (*,G/m)s
+stack3-frkl-1#
+--- 07:26:23 ---
+222: mini-tb101fr: 2022-07-05T07:26:23: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest1: 1000 routes are advertised  on stack3-frkl-1 -- SSUCCESS
+223: mini-tb101fr: 2022-07-05T07:26:23: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest2: Verifying CPU rate is less than 30% in stack3-frkl-1
+
++++ 07:26:23 stack3-frkl-1 exec +++
+show process cpu | include utilization
+CPU utilization for five seconds: 1%/0%; one minute: 3%; five minutes: 2%
+stack3-frkl-1#
+--- 07:26:24 ---
+224: mini-tb101fr: 2022-07-05T07:26:24: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+225: mini-tb101fr: 2022-07-05T07:26:24: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+
++++ 07:26:24 stack3-frkl-1 exec +++
+show process cpu | include utilization
+CPU utilization for five seconds: 1%/0%; one minute: 3%; five minutes: 2%
+stack3-frkl-1#
+--- 07:26:24 ---
+226: mini-tb101fr: 2022-07-05T07:26:24: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+227: mini-tb101fr: 2022-07-05T07:26:24: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+
++++ 07:26:24 stack3-frkl-1 exec +++
+show process cpu | include utilization
+CPU utilization for five seconds: 1%/0%; one minute: 3%; five minutes: 2%
+stack3-frkl-1#
+--- 07:26:24 ---
+228: mini-tb101fr: 2022-07-05T07:26:24: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+229: mini-tb101fr: 2022-07-05T07:26:24: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+
++++ 07:26:24 stack3-frkl-1 exec +++
+show process cpu | include utilization
+CPU utilization for five seconds: 1%/0%; one minute: 3%; five minutes: 2%
+stack3-frkl-1#
+--- 07:26:24 ---
+230: mini-tb101fr: 2022-07-05T07:26:24: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+231: mini-tb101fr: 2022-07-05T07:26:24: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+
++++ 07:26:25 stack3-frkl-1 exec +++
+show process cpu | include utilization
+CPU utilization for five seconds: 1%/0%; one minute: 3%; five minutes: 2%
+stack3-frkl-1#
+--- 07:26:25 ---
+232: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+233: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+
++++ 07:26:25 stack3-frkl-1 exec +++
+show process cpu | include utilization
+CPU utilization for five seconds: 1%/0%; one minute: 3%; five minutes: 2%
+stack3-frkl-1#
+--- 07:26:25 ---
+234: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+235: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+
++++ 07:26:25 stack3-frkl-1 exec +++
+show process cpu | include utilization
+CPU utilization for five seconds: 1%/0%; one minute: 3%; five minutes: 2%
+stack3-frkl-1#
+--- 07:26:25 ---
+236: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+237: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Subtest2: CPU utilization is 3  and less than 30% - SUCCESS
+238: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag: ************ PERFORMANCE TEST RESULT *********************
+239: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: ************ PERFORMANCE TEST RESULT *********************
+240: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag:  PLATFORM: WS-C3850-48
+241: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]:  PLATFORM: WS-C3850-48
+242: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag:  IMAGE VERSION: 17.6.4
+243: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]:  IMAGE VERSION: 17.6.4
+244: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: diag:  TESTER: sukravi
+245: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]:  TESTER: sukravi
+246: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[part=246.1/2][pname=TRP-__taskid1]: diag:  IPv6 multicast max mroutes:1000 routes 
+247: mini-tb101fr: 2022-07-05T07:26:25: %autoeasy-5-NOTICE: %[part=246.2/2][pname=TRP-__taskid1]: 
+248: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[part=248.1/2][pname=TRP-__taskid1]:  IPv6 multicast max mroutes:1000 routes 
+249: mini-tb101fr: 2022-07-05T07:26:25: %SCRIPT-6-INFO: %[part=248.2/2][pname=TRP-__taskid1]: 
+250: mini-tb101fr: 2022-07-05T07:26:25: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Completed execution of section test in Tsz4741750c
+251: mini-tb101fr: 2022-07-05T07:26:25: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: The result for section test is => PASS
+252: mini-tb101fr: 2022-07-05T07:26:26: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Starting execution of section cleanup in Tsz4741750c
+253: mini-tb101fr: 2022-07-05T07:26:26: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Unconfiguring the configurations
+
++++ 07:26:26 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#default interface GigabitEthernet1/0/4
+Interface GigabitEthernet1/0/4 set to default configuration
+stack3-frkl-1(config)#default interface GigabitEthernet1/0/4
+Interface GigabitEthernet1/0/4 set to default configuration
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:26:27 ---
+
++++ 07:26:27 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#default interface GigabitEthernet2/0/48
+Interface GigabitEthernet2/0/48 set to default configuration
+stack3-frkl-1(config)#default interface GigabitEthernet2/0/48
+Interface GigabitEthernet2/0/48 set to default configuration
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:26:27 ---
+
++++ 07:26:27 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#no ipv6 unicast-routing
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:26:28 ---
+
++++ 07:26:28 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#no ipv6 multicast-routing
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:26:28 ---
+
++++ 07:26:28 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#no ipv6 mld snooping
+stack3-frkl-1(config)#end
+stack3-frkl-1#
+--- 07:26:29 ---
+254: mini-tb101fr: 2022-07-05T07:26:29: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]: Unconfiguring tg
+255: mini-tb101fr: 2022-07-05T07:26:29: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Completed execution of section cleanup in Tsz4741750c
+256: mini-tb101fr: 2022-07-05T07:26:29: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: The result for section cleanup is => PASS
+257: mini-tb101fr: 2022-07-05T07:26:29: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Completed execution of testcase Tsz4741750c
+258: mini-tb101fr: 2022-07-05T07:26:29: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Setting result for the testcase based on rollup
+259: mini-tb101fr: 2022-07-05T07:26:29: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: result: Passed
+260: mini-tb101fr: 2022-07-05T07:26:29: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: stoptime: 2022-07-05 07:26:29
+261: mini-tb101fr: 2022-07-05T07:26:30: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Testcase result for Tsz4741750c is => Passed
+262: mini-tb101fr: 2022-07-05T07:26:30: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Starting execution of section common_cleanup
+263: mini-tb101fr: 2022-07-05T07:26:30: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: name: common_cleanup
+264: mini-tb101fr: 2022-07-05T07:26:30: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: starttime: 2022-07-05 07:26:30
+265: mini-tb101fr: 2022-07-05T07:26:30: %SCRIPT-6-INFO: %[pname=TRP-__taskid1]:  Disconnecting from DUTs and TG
+++++ 07:26:30 stack3-frkl-1 Control::transmit +++
+Transmit: show memory debug leak | ex Init|Exec
++--- 07:26:30 ---
+++++ 07:26:30 stack3-frkl-1 Control::receive +++
+show memory debug leak | ex Init|Exec
+Tracekey : 1#83a857e2e32be0681656241adcd8341d  
+
+Adding blocks for GD...
+
+                 Processor memory                 
+
+
+Address        Size  PID   Alloc-Proc        Name               Alloc_pc
+
+                 reserve Processor memory                 
+
+
+Address        Size  PID   Alloc-Proc        Name               Alloc_pc
+
+                 lsmpi_io memory                 
+
+
+Address        Size  PID   Alloc-Proc        Name               Alloc_pc
+
+stack3-frkl-1#
+--- 07:26:40 ---
+
++++ 07:26:41 stack3-frkl-1 exec +++
+show ip interface brief | include up
+Vlan1                  unassigned      YES unset  up                    up      
+GigabitEthernet1/0/4   unassigned      YES unset  up                    up      
+GigabitEthernet1/0/11  unassigned      YES unset  up                    up      
+GigabitEthernet1/0/12  unassigned      YES unset  up                    up      
+GigabitEthernet1/0/13  unassigned      YES unset  up                    up      
+GigabitEthernet1/0/14  unassigned      YES unset  up                    up      
+GigabitEthernet2/0/48  unassigned      YES unset  up                    up      
+stack3-frkl-1#
+--- 07:26:41 ---
+
++++ 07:26:41 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/4
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:26:42 ---
+
++++ 07:26:42 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/11
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:26:42 ---
+
++++ 07:26:42 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/12
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:26:43 ---
+
++++ 07:26:43 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/13
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:26:43 ---
+
++++ 07:26:43 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet1/0/14
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:26:44 ---
+
++++ 07:26:44 stack3-frkl-1 config +++
+config terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-frkl-1(config)#interface GigabitEthernet2/0/48
+stack3-frkl-1(config-if)#shutdown
+stack3-frkl-1(config-if)#end
+stack3-frkl-1#
+--- 07:26:44 ---
+
++++ 07:26:44 stack3-frkl-1 exec +++
+terminal length 0
+stack3-frkl-1#
+--- 07:26:44 ---
+
++++ 07:26:44 stack3-frkl-1 exec +++
+show running-config
+Building configuration...
+
+Current configuration : 11588 bytes
+!
+! Last configuration change at 14:26:44 UTC Tue Jul 5 2022
+!
+version 17.6
+service timestamps debug datetime msec
+service timestamps log datetime msec
+! Call-home is enabled by Smart-Licensing.
+service call-home
+platform punt-keepalive disable-kernel-core
+!
+hostname stack3-frkl-1
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+no logging console
+!
+no aaa new-model
+switch 1 provision c9300l-48uxg-4x
+switch 2 provision c9300l-48p-4g
+switch 3 provision c9300l-48p-4x
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+login on-success log
+!
+!
+!
+!
+!
+!
+!
+!
+!
+crypto pki trustpoint SLA-TrustPoint
+ enrollment pkcs12
+ revocation-check crl
+!
+!
+crypto pki certificate chain SLA-TrustPoint
+ certificate ca 01
+  30820321 30820209 A0030201 02020101 300D0609 2A864886 F70D0101 0B050030 
+  32310E30 0C060355 040A1305 43697363 6F312030 1E060355 04031317 43697363 
+  6F204C69 63656E73 696E6720 526F6F74 20434130 1E170D31 33303533 30313934 
+  3834375A 170D3338 30353330 31393438 34375A30 32310E30 0C060355 040A1305 
+  43697363 6F312030 1E060355 04031317 43697363 6F204C69 63656E73 696E6720 
+  526F6F74 20434130 82012230 0D06092A 864886F7 0D010101 05000382 010F0030 
+  82010A02 82010100 A6BCBD96 131E05F7 145EA72C 2CD686E6 17222EA1 F1EFF64D 
+  CBB4C798 212AA147 C655D8D7 9471380D 8711441E 1AAF071A 9CAE6388 8A38E520 
+  1C394D78 462EF239 C659F715 B98C0A59 5BBB5CBD 0CFEBEA3 700A8BF7 D8F256EE 
+  4AA4E80D DB6FD1C9 60B1FD18 FFC69C96 6FA68957 A2617DE7 104FDC5F EA2956AC 
+  7390A3EB 2B5436AD C847A2C5 DAB553EB 69A9A535 58E9F3E3 C0BD23CF 58BD7188 
+  68E69491 20F320E7 948E71D7 AE3BCC84 F10684C7 4BC8E00F 539BA42B 42C68BB7 
+  C7479096 B4CB2D62 EA2F505D C7B062A4 6811D95B E8250FC4 5D5D5FB8 8F27D191 
+  C55F0D76 61F9A4CD 3D992327 A8BB03BD 4E6D7069 7CBADF8B DF5F4368 95135E44 
+  DFC7C6CF 04DD7FD1 02030100 01A34230 40300E06 03551D0F 0101FF04 04030201 
+  06300F06 03551D13 0101FF04 05300301 01FF301D 0603551D 0E041604 1449DC85 
+  4B3D31E5 1B3E6A17 606AF333 3D3B4C73 E8300D06 092A8648 86F70D01 010B0500 
+  03820101 00507F24 D3932A66 86025D9F E838AE5C 6D4DF6B0 49631C78 240DA905 
+  604EDCDE FF4FED2B 77FC460E CD636FDB DD44681E 3A5673AB 9093D3B1 6C9E3D8B 
+  D98987BF E40CBD9E 1AECA0C2 2189BB5C 8FA85686 CD98B646 5575B146 8DFC66A8 
+  467A3DF4 4D565700 6ADF0F0D CF835015 3C04FF7C 21E878AC 11BA9CD2 55A9232C 
+  7CA7B7E6 C1AF74F6 152E99B7 B1FCF9BB E973DE7F 5BDDEB86 C71E3B49 1765308B 
+  5FB0DA06 B92AFE7F 494E8A9E 07B85737 F3A58BE1 1A48A229 C37C1E69 39F08678 
+  80DDCD16 D6BACECA EEBC7CF9 8428787B 35202CDC 60E4616A B623CDBD 230E3AFB 
+  418616A9 4093E049 4D10AB75 27E86F73 932E35B5 8862FDAE 0275156F 719BB2F0 
+  D697DF7F 28
+  	quit
+!
+!
+license boot level network-advantage addon dna-advantage
+!
+!
+diagnostic bootup level minimal
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+memory free low-watermark processor 131699
+!
+!
+redundancy
+ mode sso
+!
+!
+!
+!
+!
+!
+transceiver type all
+ monitoring
+!
+!
+class-map match-any system-cpp-police-ewlc-control
+  description EWLC Control 
+class-map match-any system-cpp-police-topology-control
+  description Topology control
+class-map match-any system-cpp-police-sw-forward
+  description Sw forwarding, L2 LVX data packets, LOGGING, Transit Traffic
+class-map match-any system-cpp-default
+  description EWLC Data, Inter FED Traffic 
+class-map match-any system-cpp-police-sys-data
+  description Openflow, Exception, EGR Exception, NFL Sampled Data, RPF Failed
+class-map match-any system-cpp-police-punt-webauth
+  description Punt Webauth
+class-map match-any system-cpp-police-l2lvx-control
+  description L2 LVX control packets
+class-map match-any system-cpp-police-forus
+  description Forus Address resolution and Forus traffic
+class-map match-any system-cpp-police-multicast-end-station
+  description MCAST END STATION
+class-map match-any system-cpp-police-high-rate-app
+  description High Rate Applications 
+class-map match-any system-cpp-police-multicast
+  description MCAST Data
+class-map match-any system-cpp-police-l2-control
+  description L2 control
+class-map match-any system-cpp-police-dot1x-auth
+  description DOT1X Auth
+class-map match-any system-cpp-police-data
+  description ICMP redirect, ICMP_GEN and BROADCAST
+class-map match-any system-cpp-police-stackwise-virt-control
+  description Stackwise Virtual OOB
+class-map match-any non-client-nrt-class
+class-map match-any system-cpp-police-routing-control
+  description Routing control and Low Latency
+class-map match-any system-cpp-police-protocol-snooping
+  description Protocol snooping
+class-map match-any system-cpp-police-dhcp-snooping
+  description DHCP snooping
+class-map match-any system-cpp-police-ios-routing
+  description L2 control, Topology control, Routing control, Low Latency
+class-map match-any system-cpp-police-system-critical
+  description System Critical and Gold Pkt
+class-map match-any system-cpp-police-ios-feature
+  description ICMPGEN,BROADCAST,ICMP,L2LVXCntrl,ProtoSnoop,PuntWebauth,MCASTData,Transit,DOT1XAuth,Swfwd,LOGGING,L2LVXData,ForusTraffic,ForusARP,McastEndStn,Openflow,Exception,EGRExcption,NflSampled,RpfFailed
+!
+policy-map system-cpp-policy
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+!
+interface GigabitEthernet1/0/2
+ shutdown
+!
+interface GigabitEthernet1/0/3
+!
+interface GigabitEthernet1/0/4
+ shutdown
+!
+interface GigabitEthernet1/0/5
+ shutdown
+!
+interface GigabitEthernet1/0/6
+!
+interface GigabitEthernet1/0/7
+!
+interface GigabitEthernet1/0/8
+!
+interface GigabitEthernet1/0/9
+!
+interface GigabitEthernet1/0/10
+!
+interface GigabitEthernet1/0/11
+ shutdown
+!
+interface GigabitEthernet1/0/12
+ shutdown
+!
+interface GigabitEthernet1/0/13
+ shutdown
+!
+interface GigabitEthernet1/0/14
+ shutdown
+!
+interface GigabitEthernet1/0/15
+!
+interface GigabitEthernet1/0/16
+!
+interface GigabitEthernet1/0/17
+!
+interface GigabitEthernet1/0/18
+!
+interface GigabitEthernet1/0/19
+!
+interface GigabitEthernet1/0/20
+!
+interface GigabitEthernet1/0/21
+!
+interface GigabitEthernet1/0/22
+!
+interface GigabitEthernet1/0/23
+!
+interface GigabitEthernet1/0/24
+ shutdown
+!
+interface GigabitEthernet1/0/25
+!
+interface GigabitEthernet1/0/26
+ shutdown
+!
+interface GigabitEthernet1/0/27
+ shutdown
+!
+interface GigabitEthernet1/0/28
+ shutdown
+!
+interface GigabitEthernet1/0/29
+!
+interface GigabitEthernet1/0/30
+!
+interface GigabitEthernet1/0/31
+!
+interface GigabitEthernet1/0/32
+!
+interface GigabitEthernet1/0/33
+ shutdown
+!
+interface GigabitEthernet1/0/34
+!
+interface GigabitEthernet1/0/35
+!
+interface GigabitEthernet1/0/36
+!
+interface TenGigabitEthernet1/0/37
+!
+interface TenGigabitEthernet1/0/38
+ shutdown
+!
+interface TenGigabitEthernet1/0/39
+ shutdown
+!
+interface TenGigabitEthernet1/0/40
+!
+interface TenGigabitEthernet1/0/41
+!
+interface TenGigabitEthernet1/0/42
+!
+interface TenGigabitEthernet1/0/43
+!
+interface TenGigabitEthernet1/0/44
+!
+interface TenGigabitEthernet1/0/45
+!
+interface TenGigabitEthernet1/0/46
+!
+interface TenGigabitEthernet1/0/47
+!
+interface TenGigabitEthernet1/0/48
+!
+interface AppGigabitEthernet1/0/1
+ shutdown
+!
+interface TenGigabitEthernet1/1/1
+ shutdown
+!
+interface TenGigabitEthernet1/1/2
+ shutdown
+!
+interface TenGigabitEthernet1/1/3
+ shutdown
+!
+interface TenGigabitEthernet1/1/4
+ shutdown
+!
+interface GigabitEthernet2/0/1
+!
+interface GigabitEthernet2/0/2
+ shutdown
+!
+interface GigabitEthernet2/0/3
+!
+interface GigabitEthernet2/0/4
+!
+interface GigabitEthernet2/0/5
+!
+interface GigabitEthernet2/0/6
+!
+interface GigabitEthernet2/0/7
+!
+interface GigabitEthernet2/0/8
+!
+interface GigabitEthernet2/0/9
+!
+interface GigabitEthernet2/0/10
+!
+interface GigabitEthernet2/0/11
+!
+interface GigabitEthernet2/0/12
+!
+interface GigabitEthernet2/0/13
+!
+interface GigabitEthernet2/0/14
+!
+interface GigabitEthernet2/0/15
+!
+interface GigabitEthernet2/0/16
+!
+interface GigabitEthernet2/0/17
+!
+interface GigabitEthernet2/0/18
+!
+interface GigabitEthernet2/0/19
+!
+interface GigabitEthernet2/0/20
+!
+interface GigabitEthernet2/0/21
+!
+interface GigabitEthernet2/0/22
+!
+interface GigabitEthernet2/0/23
+!
+interface GigabitEthernet2/0/24
+!
+interface GigabitEthernet2/0/25
+!
+interface GigabitEthernet2/0/26
+!
+interface GigabitEthernet2/0/27
+ shutdown
+!
+interface GigabitEthernet2/0/28
+!
+interface GigabitEthernet2/0/29
+ shutdown
+!
+interface GigabitEthernet2/0/30
+ shutdown
+!
+interface GigabitEthernet2/0/31
+!
+interface GigabitEthernet2/0/32
+!
+interface GigabitEthernet2/0/33
+!
+interface GigabitEthernet2/0/34
+!
+interface GigabitEthernet2/0/35
+!
+interface GigabitEthernet2/0/36
+!
+interface GigabitEthernet2/0/37
+!
+interface GigabitEthernet2/0/38
+!
+interface GigabitEthernet2/0/39
+!
+interface GigabitEthernet2/0/40
+!
+interface GigabitEthernet2/0/41
+!
+interface GigabitEthernet2/0/42
+!
+interface GigabitEthernet2/0/43
+!
+interface GigabitEthernet2/0/44
+!
+interface GigabitEthernet2/0/45
+!
+interface GigabitEthernet2/0/46
+!
+interface GigabitEthernet2/0/47
+ shutdown
+!
+interface GigabitEthernet2/0/48
+ shutdown
+!
+interface GigabitEthernet2/1/1
+!
+interface GigabitEthernet2/1/2
+!
+interface GigabitEthernet2/1/3
+!
+interface GigabitEthernet2/1/4
+!
+interface AppGigabitEthernet2/0/1
+ shutdown
+!
+interface GigabitEthernet3/0/1
+!
+interface GigabitEthernet3/0/2
+!
+interface GigabitEthernet3/0/3
+!
+interface GigabitEthernet3/0/4
+!
+interface GigabitEthernet3/0/5
+!
+interface GigabitEthernet3/0/6
+!
+interface GigabitEthernet3/0/7
+!
+interface GigabitEthernet3/0/8
+!
+interface GigabitEthernet3/0/9
+!
+interface GigabitEthernet3/0/10
+!
+interface GigabitEthernet3/0/11
+!
+interface GigabitEthernet3/0/12
+!
+interface GigabitEthernet3/0/13
+!
+interface GigabitEthernet3/0/14
+!
+interface GigabitEthernet3/0/15
+!
+interface GigabitEthernet3/0/16
+!
+interface GigabitEthernet3/0/17
+!
+interface GigabitEthernet3/0/18
+!
+interface GigabitEthernet3/0/19
+!
+interface GigabitEthernet3/0/20
+!
+interface GigabitEthernet3/0/21
+!
+interface GigabitEthernet3/0/22
+!
+interface GigabitEthernet3/0/23
+!
+interface GigabitEthernet3/0/24
+ shutdown
+!
+interface GigabitEthernet3/0/25
+!
+interface GigabitEthernet3/0/26
+!
+interface GigabitEthernet3/0/27
+!
+interface GigabitEthernet3/0/28
+!
+interface GigabitEthernet3/0/29
+!
+interface GigabitEthernet3/0/30
+!
+interface GigabitEthernet3/0/31
+!
+interface GigabitEthernet3/0/32
+!
+interface GigabitEthernet3/0/33
+!
+interface GigabitEthernet3/0/34
+!
+interface GigabitEthernet3/0/35
+!
+interface GigabitEthernet3/0/36
+!
+interface GigabitEthernet3/0/37
+!
+interface GigabitEthernet3/0/38
+!
+interface GigabitEthernet3/0/39
+!
+interface GigabitEthernet3/0/40
+!
+interface GigabitEthernet3/0/41
+!
+interface GigabitEthernet3/0/42
+!
+interface GigabitEthernet3/0/43
+!
+interface GigabitEthernet3/0/44
+!
+interface GigabitEthernet3/0/45
+!
+interface GigabitEthernet3/0/46
+!
+interface GigabitEthernet3/0/47
+!
+interface GigabitEthernet3/0/48
+!
+interface TenGigabitEthernet3/1/1
+!
+interface TenGigabitEthernet3/1/2
+!
+interface TenGigabitEthernet3/1/3
+!
+interface TenGigabitEthernet3/1/4
+!
+interface AppGigabitEthernet3/0/1
+ shutdown
+!
+interface Vlan1
+ no ip address
+!
+ip forward-protocol nd
+ip http server
+ip http secure-server
+!
+!
+!
+!
+!
+!
+control-plane
+ service-policy input system-cpp-policy
+!
+!
+line con 0
+ exec-timeout 0 0
+ stopbits 1
+line vty 0 4
+ login
+ transport input ssh
+line vty 5 31
+ login
+ transport input ssh
+!
+call-home
+ ! If contact email address in call-home is configured as sch-smart-licensing@cisco.com
+ ! the email address configured in Cisco Smart License Portal will be used as contact email address to send SCH notifications.
+ contact-email-addr sch-smart-licensing@cisco.com
+ profile "CiscoTAC-1"
+  active
+  destination transport-method http
+!
+!
+!
+!
+!
+!
+end
+
+stack3-frkl-1#
+--- 07:26:58 ---
+
++++ 07:26:58 stack3-frkl-1 destroy +++
+266: mini-tb101fr: 2022-07-05T07:27:00: %autoeasy-5-NOTICE: %[pname=TRP-__taskid1]: stoptime: 2022-07-05 07:27:00
+267: mini-tb101fr: 2022-07-05T07:27:00: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: Completed execution of section common_cleanup
+268: mini-tb101fr: 2022-07-05T07:27:00: %aetest-5-NOTICE: %[pname=TRP-__taskid1]: The result for section common_cleanup is => PASS

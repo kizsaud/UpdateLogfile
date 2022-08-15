@@ -1,0 +1,274 @@
+FROM METHOD SETUP
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase gnoi_bootstrapping_check is => SKIPPED
+Testcase was skipped
+]: Skipped reason: PreProcessor-2 'skip' - Not a good testcase, disable for now till we rework it
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase can_generate_csr_nokeyloop_2048(keysize=noauto) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase can_generate_csr_nokeyloop_3072(keysize=noauto) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase can_generate_csr_nokeyloop_bad_3073(keysize=noauto) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase get_many_certs_success(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase get_many_certs_success(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase get_success(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase get_success(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_bad_cert_type(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_bad_cert_type(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_bad_key_type(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_bad_key_type(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_empty_cert_data(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_empty_cert_data(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_empty_cert_id(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_empty_cert_id(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_fail_nokeyloop_8096(keysize=noauto) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_fail_preexisting(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_fail_preexisting(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_fail_with_unknown_ca(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_fail_with_unknown_ca(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_multiple_CA(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_multiple_CA(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_no_load_cert_req(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_no_load_cert_req(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_sleep_before_loadCertReq(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_sleep_before_loadCertReq(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_success(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_success(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_success_fast(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_success_fast(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_then_rotate_with_unknown_CA(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase install_then_rotate_with_unknown_CA(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase provision_install_rotate_revoke(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase provision_install_rotate_revoke(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase provision_success_twice(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase provision_success_twice(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase revoke_bad(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase revoke_bad(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase revoke_several_success(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase revoke_several_success(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase revoke_success(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase revoke_success(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_bad(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_bad(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_bad_cert_type(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_bad_cert_type(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_bad_key_type(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_bad_key_type(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_empty_cert_data(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_empty_cert_data(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_empty_cert_id(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_empty_cert_id(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_fail_nokeyloop_8096(keysize=noauto) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_no_csr_params(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_no_csr_params(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_no_load_cert_req(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_no_load_cert_req(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_sleep_before_loadCertReq(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_sleep_before_loadCertReq(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_success(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_success(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_success_same_cert_many_times(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_success_same_cert_many_times(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_unknown_ca(keysize=2048) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase rotate_unknown_ca(keysize=3072) is => FAILED
+]: Failed reason: gnoi_cert operation produced unexpected return code
+FAIL DUE TO:]: The result of section functional_test is => FAILED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase gnoi_configuration_tests is => ERRORED
+ERRORED REASON:]: Errored reason: Problem with gnoi_cert
+ERRORED FROM:]: The result of section test_setup is => ERRORED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase write_mem_test is => ERRORED
+ERRORED REASON:]: Errored reason: Could not provision box using gnoi_cert
+ERRORED FROM:]: The result of section trigger_write_mem_calls is => ERRORED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

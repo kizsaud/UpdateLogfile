@@ -1,0 +1,161 @@
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><style>
+    body {background-color: powderblue;}
+    h1 {color: GREEN;}
+  </style><h1>From Job:newn<h1></head>
+
+
+  <body>
+
+
+ <script>   
+  var selectvalue = document.getElementById("selectvalue"), test = {{ name | tojson }};
+  var selectvalue2=document.getElementById("selectvalue"), test2 = {{ allresults | tojson }};;
+  
+function displayvar(){
+    var result = prompt('Type which detailed reason you would like to see');
+
+    alert(test[result])
+}
+function displayvar2(){
+    var result = prompt('type which testcase number youd like to see');
+
+    document.write(test2[result])
+  
+
+}
+</script>
+ 
+<script type="text/javascript">
+        $(document).ready(function () {
+
+$("#flip").click(function () {
+            $("#panel").slideToggle("slow");
+        });
+
+        $("#flip1").click(function () {
+            $("#panel1").slideToggle("slow");
+        });
+
+           //Filter table
+           $("#myInput").on("keyup", function () {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").slice(1).filter(function () {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+});
+            
+ });
+</script>
+<button class="displayvar" onclick="displayvar();"> Detailed reason</button>
+<button class="displayvar2" onclick="displayvar2();"> Testcase log </button>
+
+
+
+</body>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <body style="background-color:lightblue;">
+<div id="flip">Show table</div>
+   <div id="panel">
+   <br />
+   <span>Result Filter</span>
+    <input id="myInput" class="fortextbox" type="text" placeholder="Search.." >
+   <br /><br /><br />  
+VERSION INFO:*    2 41    C9300-24U          17.06.04          CAT9K_IOSXE           BUNDLE 
+<table id="myTable">
+<thead>
+<tr><th style="text-align: right;">  S.No</th><th>Testcase                                           </th><th>Result:  </th><th>SECTION                </th><th>Reason                                                                        </th><th>Analysis    </th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: right;">     0</td><td>can_generate_csr_nokeyloop_2048(keysize=noauto)    </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     1</td><td>can_generate_csr_nokeyloop_3072(keysize=noauto)    </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     2</td><td>can_generate_csr_nokeyloop_bad_3073(keysize=noauto)</td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     3</td><td>get_many_certs_success(keysize=2048)               </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     4</td><td>get_many_certs_success(keysize=3072)               </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     5</td><td>get_success(keysize=2048)                          </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     6</td><td>get_success(keysize=3072)                          </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     7</td><td>install_bad_cert_type(keysize=2048)                </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     8</td><td>install_bad_cert_type(keysize=3072)                </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">     9</td><td>install_bad_key_type(keysize=2048)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    10</td><td>install_bad_key_type(keysize=3072)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    11</td><td>install_empty_cert_data(keysize=2048)              </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    12</td><td>install_empty_cert_data(keysize=3072)              </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    13</td><td>install_empty_cert_id(keysize=2048)                </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    14</td><td>install_empty_cert_id(keysize=3072)                </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    15</td><td>install_fail_nokeyloop_8096(keysize=noauto)        </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    16</td><td>install_fail_preexisting(keysize=2048)             </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    17</td><td>install_fail_preexisting(keysize=3072)             </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    18</td><td>install_fail_with_unknown_ca(keysize=2048)         </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    19</td><td>install_fail_with_unknown_ca(keysize=3072)         </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    20</td><td>install_multiple_CA(keysize=2048)                  </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    21</td><td>install_multiple_CA(keysize=3072)                  </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    22</td><td>install_no_load_cert_req(keysize=2048)             </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    23</td><td>install_no_load_cert_req(keysize=3072)             </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    24</td><td>install_sleep_before_loadCertReq(keysize=2048)     </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    25</td><td>install_sleep_before_loadCertReq(keysize=3072)     </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    26</td><td>install_success(keysize=2048)                      </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    27</td><td>install_success(keysize=3072)                      </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    28</td><td>install_success_fast(keysize=2048)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    29</td><td>install_success_fast(keysize=3072)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    30</td><td>install_then_rotate_with_unknown_CA(keysize=2048)  </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    31</td><td>install_then_rotate_with_unknown_CA(keysize=3072)  </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    32</td><td>provision_install_rotate_revoke(keysize=2048)      </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    33</td><td>provision_install_rotate_revoke(keysize=3072)      </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    34</td><td>provision_success_twice(keysize=2048)              </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    35</td><td>provision_success_twice(keysize=3072)              </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    36</td><td>revoke_bad(keysize=2048)                           </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    37</td><td>revoke_bad(keysize=3072)                           </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    38</td><td>revoke_several_success(keysize=2048)               </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    39</td><td>revoke_several_success(keysize=3072)               </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    40</td><td>revoke_success(keysize=2048)                       </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    41</td><td>revoke_success(keysize=3072)                       </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    42</td><td>rotate_bad(keysize=2048)                           </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    43</td><td>rotate_bad(keysize=3072)                           </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    44</td><td>rotate_bad_cert_type(keysize=2048)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    45</td><td>rotate_bad_cert_type(keysize=3072)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    46</td><td>rotate_bad_key_type(keysize=2048)                  </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    47</td><td>rotate_bad_key_type(keysize=3072)                  </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    48</td><td>rotate_empty_cert_data(keysize=2048)               </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    49</td><td>rotate_empty_cert_data(keysize=3072)               </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    50</td><td>rotate_empty_cert_id(keysize=2048)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    51</td><td>rotate_empty_cert_id(keysize=3072)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    52</td><td>rotate_fail_nokeyloop_8096(keysize=noauto)         </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    53</td><td>rotate_no_csr_params(keysize=2048)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    54</td><td>rotate_no_csr_params(keysize=3072)                 </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    55</td><td>rotate_no_load_cert_req(keysize=2048)              </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    56</td><td>rotate_no_load_cert_req(keysize=3072)              </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    57</td><td>rotate_sleep_before_loadCertReq(keysize=2048)      </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    58</td><td>rotate_sleep_before_loadCertReq(keysize=3072)      </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    59</td><td>rotate_success(keysize=2048)                       </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    60</td><td>rotate_success(keysize=3072)                       </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    61</td><td>rotate_success_same_cert_many_times(keysize=2048)  </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    62</td><td>rotate_success_same_cert_many_times(keysize=3072)  </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    63</td><td>rotate_unknown_ca(keysize=2048)                    </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    64</td><td>rotate_unknown_ca(keysize=3072)                    </td><td>FAILED   </td><td>section functional_test</td><td>gnoi_cert operation produced unexpected return code                           </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    65</td><td>gnoi_configuration_tests                           </td><td>ERRORED  </td><td>test_setup             </td><td>Problem with gnoi_cert                                                        </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    66</td><td>write_mem_test                                     </td><td>ERRORED  </td><td>trigger_write_mem_calls</td><td>Could not provision box using gnoi_cert                                       </td><td>Script issue</td></tr>
+<tr><td style="text-align: right;">    67</td><td>gnoi_bootstrapping_check                           </td><td>SKIPPED  </td><td>skipped                </td><td>PreProcessor-2 &#x27;skip&#x27; - Not a good testcase, disable for now till we rework it</td><td>Script issue</td></tr>
+</tbody>
+</table></tbody><script>
+   function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[2];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+</script>
